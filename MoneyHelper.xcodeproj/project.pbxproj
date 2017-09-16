@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CF67E9DE9E2A29A9735425 /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB837A2656CD5B37B581F4A /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework */; };
+		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
+		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
+		7D0BD96130AFA0A3EBA0D04C /* Pods_MoneyHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6249948F0773098A19874B /* Pods_MoneyHelper.framework */; };
+		8903046DFC8ACC00F348D36F /* Pods_MoneyHelper_MoneyHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3004F3D76AAA5D190A9B2A7A /* Pods_MoneyHelper_MoneyHelperTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D01B3A1F6D4CF70090CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D01B0D1F6D4CF70090CD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D01B151F6D4CF70090CD06;
+			remoteInfo = MoneyHelper;
+		};
+		50D01B471F6D4CF70090CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D01B0D1F6D4CF70090CD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D01B151F6D4CF70090CD06;
+			remoteInfo = MoneyHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3004F3D76AAA5D190A9B2A7A /* Pods_MoneyHelper_MoneyHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper_MoneyHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
+		50D01B3F1F6D4CF70090CD06 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		50D01B401F6D4CF70090CD06 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		50D01B411F6D4CF70090CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D01B461F6D4CF70090CD06 /* MoneyHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperUITests.swift; sourceTree = "<group>"; };
+		50D01B4C1F6D4CF70090CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FD57B51F6D52B700C10542 /* Application */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Application; sourceTree = "<group>"; };
+		50FD57B61F6D52B700C10542 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		50FD57B71F6D52B700C10542 /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Library; sourceTree = "<group>"; };
+		50FD57B81F6D52B700C10542 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		50FD57B91F6D52B700C10542 /* Third Party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Third Party"; sourceTree = "<group>"; };
+		50FD57BA1F6D52B800C10542 /* Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screens; sourceTree = "<group>"; };
+		50FD57BB1F6D52B800C10542 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		5A6249948F0773098A19874B /* Pods_MoneyHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F516BB3349265AA0680EDD5 /* Pods-MoneyHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper.release.xcconfig"; sourceTree = "<group>"; };
+		A707E84C4C50B93CAC388DA3 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB998A9B2F561FC235BEF78D /* Pods-MoneyHelper-MoneyHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEB837A2656CD5B37B581F4A /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB3545E303B8A48BDD424EE /* Pods-MoneyHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		DE681E02C1E68C27D110EA87 /* Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E86BAE13A9DB3EE87C1D2A65 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D01B121F6D4CF70090CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0BD96130AFA0A3EBA0D04C /* Pods_MoneyHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B361F6D4CF70090CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8903046DFC8ACC00F348D36F /* Pods_MoneyHelper_MoneyHelperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B431F6D4CF70090CD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CF67E9DE9E2A29A9735425 /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F17CA2BE43D39ED912FBDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB3545E303B8A48BDD424EE /* Pods-MoneyHelper.debug.xcconfig */,
+				5F516BB3349265AA0680EDD5 /* Pods-MoneyHelper.release.xcconfig */,
+				DE681E02C1E68C27D110EA87 /* Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig */,
+				BB998A9B2F561FC235BEF78D /* Pods-MoneyHelper-MoneyHelperTests.release.xcconfig */,
+				E86BAE13A9DB3EE87C1D2A65 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig */,
+				A707E84C4C50B93CAC388DA3 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50D01B0C1F6D4CF70090CD06 = {
+			isa = PBXGroup;
+			children = (
+				50D01B181F6D4CF70090CD06 /* MoneyHelper */,
+				50D01B3C1F6D4CF70090CD06 /* MoneyHelperTests */,
+				50D01B491F6D4CF70090CD06 /* MoneyHelperUITests */,
+				50D01B171F6D4CF70090CD06 /* Products */,
+				32F17CA2BE43D39ED912FBDA /* Pods */,
+				63ADA7174B05D92CE5B3C439 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50D01B171F6D4CF70090CD06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D01B161F6D4CF70090CD06 /* MoneyHelper.app */,
+				50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */,
+				50D01B461F6D4CF70090CD06 /* MoneyHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D01B181F6D4CF70090CD06 /* MoneyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				50FD57B51F6D52B700C10542 /* Application */,
+				50FD57B71F6D52B700C10542 /* Library */,
+				50FD57B61F6D52B700C10542 /* Models */,
+				50FD57B81F6D52B700C10542 /* Resources */,
+				50FD57BA1F6D52B800C10542 /* Screens */,
+				50FD57BB1F6D52B800C10542 /* Services */,
+				50FD57B91F6D52B700C10542 /* Third Party */,
+			);
+			path = MoneyHelper;
+			sourceTree = "<group>";
+		};
+		50D01B3C1F6D4CF70090CD06 /* MoneyHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */,
+				50D01B3F1F6D4CF70090CD06 /* Tests */,
+				50D01B401F6D4CF70090CD06 /* Resources */,
+				50D01B411F6D4CF70090CD06 /* Info.plist */,
+			);
+			path = MoneyHelperTests;
+			sourceTree = "<group>";
+		};
+		50D01B491F6D4CF70090CD06 /* MoneyHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */,
+				50D01B4C1F6D4CF70090CD06 /* Info.plist */,
+			);
+			path = MoneyHelperUITests;
+			sourceTree = "<group>";
+		};
+		63ADA7174B05D92CE5B3C439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6249948F0773098A19874B /* Pods_MoneyHelper.framework */,
+				3004F3D76AAA5D190A9B2A7A /* Pods_MoneyHelper_MoneyHelperTests.framework */,
+				BEB837A2656CD5B37B581F4A /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D01B151F6D4CF70090CD06 /* MoneyHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D01B4F1F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelper" */;
+			buildPhases = (
+				0869B69FE8DA4A98BE76E2FC /* [CP] Check Pods Manifest.lock */,
+				50D01B111F6D4CF70090CD06 /* Sources */,
+				50D01B121F6D4CF70090CD06 /* Frameworks */,
+				50D01B131F6D4CF70090CD06 /* Resources */,
+				50D01B141F6D4CF70090CD06 /* Swift Lint */,
+				88BCC6B3D5767CA8B525933E /* [CP] Embed Pods Frameworks */,
+				E69C21FF861EF050D266E441 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyHelper;
+			productName = MoneyHelper;
+			productReference = 50D01B161F6D4CF70090CD06 /* MoneyHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D01B381F6D4CF70090CD06 /* MoneyHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D01B521F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelperTests" */;
+			buildPhases = (
+				A84A0669BB6B2DBEB2974A06 /* [CP] Check Pods Manifest.lock */,
+				50D01B351F6D4CF70090CD06 /* Sources */,
+				50D01B361F6D4CF70090CD06 /* Frameworks */,
+				50D01B371F6D4CF70090CD06 /* Resources */,
+				87B4BFBA806E10B6800BA04E /* [CP] Embed Pods Frameworks */,
+				7CE0D91754FED60376F1BA17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D01B3B1F6D4CF70090CD06 /* PBXTargetDependency */,
+			);
+			name = MoneyHelperTests;
+			productName = MoneyHelperTests;
+			productReference = 50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50D01B451F6D4CF70090CD06 /* MoneyHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D01B551F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelperUITests" */;
+			buildPhases = (
+				ABA03365C04A914885D27B9D /* [CP] Check Pods Manifest.lock */,
+				50D01B421F6D4CF70090CD06 /* Sources */,
+				50D01B431F6D4CF70090CD06 /* Frameworks */,
+				50D01B441F6D4CF70090CD06 /* Resources */,
+				CB532A251D10F3C74B0D5E01 /* [CP] Embed Pods Frameworks */,
+				80A40D5C47651190C6C4160B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D01B481F6D4CF70090CD06 /* PBXTargetDependency */,
+			);
+			name = MoneyHelperUITests;
+			productName = MoneyHelperUITests;
+			productReference = 50D01B461F6D4CF70090CD06 /* MoneyHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D01B0D1F6D4CF70090CD06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kirill Klebanov";
+				TargetAttributes = {
+					50D01B151F6D4CF70090CD06 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					50D01B381F6D4CF70090CD06 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50D01B151F6D4CF70090CD06;
+					};
+					50D01B451F6D4CF70090CD06 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50D01B151F6D4CF70090CD06;
+					};
+				};
+			};
+			buildConfigurationList = 50D01B101F6D4CF70090CD06 /* Build configuration list for PBXProject "MoneyHelper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50D01B0C1F6D4CF70090CD06;
+			productRefGroup = 50D01B171F6D4CF70090CD06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D01B151F6D4CF70090CD06 /* MoneyHelper */,
+				50D01B381F6D4CF70090CD06 /* MoneyHelperTests */,
+				50D01B451F6D4CF70090CD06 /* MoneyHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D01B131F6D4CF70090CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B371F6D4CF70090CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B441F6D4CF70090CD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0869B69FE8DA4A98BE76E2FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50D01B141F6D4CF70090CD06 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nexit 1\nfi";
+		};
+		7CE0D91754FED60376F1BA17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A40D5C47651190C6C4160B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B4BFBA806E10B6800BA04E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BCC6B3D5767CA8B525933E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84A0669BB6B2DBEB2974A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA03365C04A914885D27B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB532A251D10F3C74B0D5E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69C21FF861EF050D266E441 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D01B111F6D4CF70090CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B351F6D4CF70090CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D01B421F6D4CF70090CD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D01B3B1F6D4CF70090CD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D01B151F6D4CF70090CD06 /* MoneyHelper */;
+			targetProxy = 50D01B3A1F6D4CF70090CD06 /* PBXContainerItemProxy */;
+		};
+		50D01B481F6D4CF70090CD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D01B151F6D4CF70090CD06 /* MoneyHelper */;
+			targetProxy = 50D01B471F6D4CF70090CD06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50D01B4D1F6D4CF70090CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D01B4E1F6D4CF70090CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D01B501F6D4CF70090CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB3545E303B8A48BDD424EE /* Pods-MoneyHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = "$(SRCROOT)/MoneyHelper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D01B511F6D4CF70090CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F516BB3349265AA0680EDD5 /* Pods-MoneyHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = "$(SRCROOT)/MoneyHelper/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50D01B531F6D4CF70090CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE681E02C1E68C27D110EA87 /* Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = MoneyHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyHelper.app/MoneyHelper";
+			};
+			name = Debug;
+		};
+		50D01B541F6D4CF70090CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB998A9B2F561FC235BEF78D /* Pods-MoneyHelper-MoneyHelperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = MoneyHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyHelper.app/MoneyHelper";
+			};
+			name = Release;
+		};
+		50D01B561F6D4CF70090CD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86BAE13A9DB3EE87C1D2A65 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = MoneyHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyHelper;
+			};
+			name = Debug;
+		};
+		50D01B571F6D4CF70090CD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A707E84C4C50B93CAC388DA3 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9639RHZFT;
+				INFOPLIST_FILE = MoneyHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D01B101F6D4CF70090CD06 /* Build configuration list for PBXProject "MoneyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D01B4D1F6D4CF70090CD06 /* Debug */,
+				50D01B4E1F6D4CF70090CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D01B4F1F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D01B501F6D4CF70090CD06 /* Debug */,
+				50D01B511F6D4CF70090CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D01B521F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D01B531F6D4CF70090CD06 /* Debug */,
+				50D01B541F6D4CF70090CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D01B551F6D4CF70090CD06 /* Build configuration list for PBXNativeTarget "MoneyHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D01B561F6D4CF70090CD06 /* Debug */,
+				50D01B571F6D4CF70090CD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D01B0D1F6D4CF70090CD06 /* Project object */;
+}
