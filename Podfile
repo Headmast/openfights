@@ -9,6 +9,7 @@ target 'MoneyHelper' do
     pod 'Alamofire'
     pod 'AlamofireImage'
     pod 'AlamofireNetworkActivityIndicator', '~> 2.1'
+    pod 'SwiftyUserDefaults'
 
 
     target 'MoneyHelperTests' do

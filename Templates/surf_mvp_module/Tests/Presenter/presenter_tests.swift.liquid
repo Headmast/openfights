@@ -1,0 +1,48 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import XCTest
+@testable import {{ module_info.product_module_name  }}
+
+final class {{ module_info.name }}PresenterTest: XCTestCase {
+
+    private var presenter: {{ module_info.name }}Presenter = {{ module_info.name }}Presenter()
+    private var view: MockViewController = MockViewController()
+
+    override func setUp() {
+        super.setUp()
+        presenter = {{ module_info.name }}Presenter()
+        presenter.router = MockRouter()
+        view = MockViewController()
+        presenter.view = view
+    }
+
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+
+    func testThatPresenterHandlesViewLoadedEvent() {
+        // when 
+        presenter.viewLoaded()
+        // then
+        XCTAssertTrue((presenter.view as! MockViewController).setupInitialStateWasCalled)
+    }
+
+    final class MockRouter: {{ module_info.name }}RouterInput {
+    }
+
+    final class MockViewController: {{ module_info.name }}ViewInput {
+        var setupInitialStateWasCalled: Bool = false
+
+        func setupInitialState() {
+            setupInitialStateWasCalled = true
+        }
+    }
+
+}
