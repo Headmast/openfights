@@ -32,6 +32,9 @@
 		4C338311137FF32CC64638D2 /* InfromationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D1C4565F3EB024FB8E05F /* InfromationPresenterTests.swift */; };
 		4D9E53E4D31055D2039EAE79 /* RecommendationsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EF0664846C2784BC0106E /* RecommendationsPresenterTests.swift */; };
 		500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */; };
+		501747381F6DD66E000B547A /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747361F6DD66E000B547A /* CardCell.swift */; };
+		501747391F6DD66E000B547A /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501747371F6DD66E000B547A /* CardCell.xib */; };
+		5017473B1F6DD770000B547A /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017473A1F6DD770000B547A /* UIKit.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -147,6 +150,9 @@
 		4DFBEE6FBC26541E432C03E0 /* IntroViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroViewInput.swift; sourceTree = "<group>"; };
 		4FB1E5936B2625014FFC83FF /* BalanceRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceRouter.swift; sourceTree = "<group>"; };
 		500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501747361F6DD66E000B547A /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		501747371F6DD66E000B547A /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		5017473A1F6DD770000B547A /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -584,6 +590,7 @@
 			children = (
 				50FD57ED1F6D6B9800C10542 /* Foundation.swift */,
 				50FD57EF1F6D6B9900C10542 /* UIView.swift */,
+				5017473A1F6DD770000B547A /* UIKit.swift */,
 				50FD57EA1F6D6B9800C10542 /* UIViewController.swift */,
 			);
 			path = Extensions;
@@ -1073,6 +1080,8 @@
 				5374D5F303E691E77A860104 /* BalanceViewController.xib */,
 				58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */,
 				565BC5373B19AA8D8CE62560 /* BalanceViewOutput.swift */,
+				501747361F6DD66E000B547A /* CardCell.swift */,
+				501747371F6DD66E000B547A /* CardCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1200,6 +1209,7 @@
 				54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */,
 				7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */,
 				500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */,
+				501747391F6DD66E000B547A /* CardCell.xib in Resources */,
 				F5BFE23BB44C0B1BA7F35CD1 /* InfromationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1418,6 +1428,7 @@
 				50FD57F61F6D6BCE00C10542 /* UIView.swift in Sources */,
 				50FD57F71F6D6BCE00C10542 /* UIViewController.swift in Sources */,
 				50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */,
+				5017473B1F6DD770000B547A /* UIKit.swift in Sources */,
 				0B08B4DC250A9C75E00E3E3F /* IntroModuleConfigurator.swift in Sources */,
 				C29C48CFB0247D30890910C5 /* IntroRouter.swift in Sources */,
 				62C6D890893F73DAFEB8F889 /* IntroRouterInput.swift in Sources */,
@@ -1448,6 +1459,7 @@
 				8F5DF9912BE1B7C6DF808546 /* GoalsPresenter.swift in Sources */,
 				873DEA12F1BD0CE516339837 /* GoalsModuleInput.swift in Sources */,
 				FC52DD8EEA49CC482AE68874 /* GoalsViewController.swift in Sources */,
+				501747381F6DD66E000B547A /* CardCell.swift in Sources */,
 				5813EE7C212711A84320995F /* GoalsViewInput.swift in Sources */,
 				D8A0E79051B59FA6EC75FB00 /* GoalsViewOutput.swift in Sources */,
 				73BF4B47FB384201D1BD33DD /* RecommendationsModuleConfigurator.swift in Sources */,
