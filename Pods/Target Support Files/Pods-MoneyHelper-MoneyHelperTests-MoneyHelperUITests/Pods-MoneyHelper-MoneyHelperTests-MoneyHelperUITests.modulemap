@@ -1,0 +1,6 @@
+framework module Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests {
+  umbrella header "Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

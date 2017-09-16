@@ -1,0 +1,37 @@
+### Headers settings
+company: Kirill Klebanov
+
+### Xcode project settings
+project_name: MoneyHelper
+xcodeproj_path: MoneyHelper.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: MoneyHelper
+
+# The file path for new modules
+project_file_path: MoneyHelper/Screens
+
+# The Xcode group path to new modules
+project_group_path: MoneyHelper/Screens
+
+### Tests generation settings section
+# The tests target name
+test_target: MoneyHelperTests
+
+# The file path for new tests
+test_file_path: MoneyHelperTests/Tests/Screens
+
+# The Xcode group path to new tests
+test_group_path: MoneyHelperTests/Tests/Screens
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalogs
+catalogs:
+- 'https://github.com/ismetanin/generamba-modules'
+
+### Templates
+templates:
+- {name: surf_mvp_module}

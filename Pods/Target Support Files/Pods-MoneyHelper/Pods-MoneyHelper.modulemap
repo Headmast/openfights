@@ -1,0 +1,6 @@
+framework module Pods_MoneyHelper {
+  umbrella header "Pods-MoneyHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

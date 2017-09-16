@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests
+@end
