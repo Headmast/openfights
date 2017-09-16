@@ -1,0 +1,17 @@
+# Template information section
+name: "surf_service_module"
+summary: ""
+author: "Alexander Kravchenkov"
+version: "1.0.0"
+
+code_files:
+# Service
+- {name: Service.swift, path: Code/Service/service.swift.liquid}
+
+# The declarations for test files
+test_files:
+
+# Service tests
+- {name: ServiceTests.swift, path: Tests/Service/service_tests.swift.liquid}
+
+- {name: MappingTests.swift, path: Tests/Service/service_mapping_tests.swift.liquid}

@@ -1,5 +1,5 @@
 ### Headers settings
-company: Kirill Klebanov
+company: Surf
 
 ### Xcode project settings
 project_name: MoneyHelper
@@ -31,7 +31,9 @@ podfile_path: Podfile
 ### Catalogs
 catalogs:
 - 'https://github.com/ismetanin/generamba-modules'
+- 'https://github.com/LastSprint/surf_service_templates'
 
 ### Templates
 templates:
 - {name: surf_mvp_module}
+- {name: surf_service_module}
