@@ -16,4 +16,10 @@ final class IntroRouter: IntroRouterInput {
 
 	// MARK: IntroRouterInput
 
+    // Show main screen
+    func showMainScreen() {
+        if let window = UIApplication.shared.delegate?.window {
+            window?.rootViewController = TabbarModuleConfigurator().configure()
+        }
+    }
 }

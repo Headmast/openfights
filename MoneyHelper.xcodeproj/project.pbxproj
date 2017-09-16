@@ -8,9 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		02CF67E9DE9E2A29A9735425 /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB837A2656CD5B37B581F4A /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework */; };
+		02DC3B7D5A524243E656CEFB /* InfromationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74163259D9F9E7E280F5A2B9 /* InfromationRouter.swift */; };
+		04D35BDACB988CD367B148B3 /* TabbarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2F0F27AE8EDF037EDDF3B /* TabbarRouterInput.swift */; };
+		07FAD9B5AF5F8DC1307225D3 /* InfromationModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904838083B2D692CD8A4657D /* InfromationModuleConfiguratorTests.swift */; };
 		0B08B4DC250A9C75E00E3E3F /* IntroModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C19ED06FCCB055E187561 /* IntroModuleConfigurator.swift */; };
+		10DB714340480620C15097E9 /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5374D5F303E691E77A860104 /* BalanceViewController.xib */; };
+		1438A82F87FBF7DCF3D17DC2 /* InfromationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8501498BF8F4DD025A785C8 /* InfromationRouterInput.swift */; };
+		1799189863417CC4F5640B6C /* BalanceModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD51989BBF219E2E30B8883 /* BalanceModuleConfigurator.swift */; };
+		1EAE841EB0F1C4318E1BF07A /* InfromationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B357FF0F3C56F87D22881D94 /* InfromationModuleInput.swift */; };
+		249AF0147430871693D14791 /* RecommendationsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864595762CBF7DD2223AF747 /* RecommendationsViewInput.swift */; };
+		28493F4E82301C4326D889B5 /* GoalsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E61876729E78669AE69A7B /* GoalsRouterInput.swift */; };
 		289F3989831DB7EC4D8F46B5 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000DB71892D1376B8102E0E5 /* IntroViewController.xib */; };
+		3069C2633BD72D9301E5F240 /* TabbarPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726C31E43F7CFB2A55C3B545 /* TabbarPresenterTests.swift */; };
+		3609FDA9EE441B9E3E4A071E /* InfromationRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A5A65F5FC17CF98815530E /* InfromationRouterTests.swift */; };
 		37418113B84B887A802F494A /* IntroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C591494136E35B40491CCEE /* IntroPresenter.swift */; };
+		37A98D93E3BFD07408B5CE12 /* TabbarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D536C65304E08AA9ED4656 /* TabbarViewOutput.swift */; };
+		396F8F667BAEB150E4A845D7 /* BalanceModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890838F288B499D0AE328D74 /* BalanceModuleConfiguratorTests.swift */; };
+		3EFD4C9C2A9FA0F4410CCB7D /* TabbarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F28D969BDEE473C470443 /* TabbarModuleInput.swift */; };
+		3F5829365BBD92FB9550AB49 /* RecommendationsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23D25B435E60E76B426FDA9 /* RecommendationsModuleInput.swift */; };
+		3F87CA406CDE9820ED383E23 /* RecommendationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C6269611E1131A305A1671 /* RecommendationsRouter.swift */; };
+		4052D1B17893B04B1EC7318A /* TabbarViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9BE44BE90C51D0911F6660 /* TabbarViewTests.swift */; };
+		467149E0D44AC08B59945F6E /* GoalsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD692D4C3CADF0E922E096C /* GoalsModuleConfigurator.swift */; };
+		4C338311137FF32CC64638D2 /* InfromationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D1C4565F3EB024FB8E05F /* InfromationPresenterTests.swift */; };
+		4D9E53E4D31055D2039EAE79 /* RecommendationsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EF0664846C2784BC0106E /* RecommendationsPresenterTests.swift */; };
+		500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -19,17 +40,62 @@
 		50FD57F71F6D6BCE00C10542 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57EA1F6D6B9800C10542 /* UIViewController.swift */; };
 		50FD57FA1F6D71D600C10542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57BE1F6D6ACB00C10542 /* AppDelegate.swift */; };
 		50FD57FB1F6D71E500C10542 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FD57BF1F6D6ACB00C10542 /* LaunchScreen.xib */; };
+		54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48299AA73E346A42EF08BF25 /* GoalsViewController.xib */; };
+		5813EE7C212711A84320995F /* GoalsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84846585E4B84EB049CA55A6 /* GoalsViewInput.swift */; };
+		598D3437FD8CF375ED863FD0 /* BalanceViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565BC5373B19AA8D8CE62560 /* BalanceViewOutput.swift */; };
+		59D6D917C26EE294C0732DC7 /* GoalsModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E59F88C2C42AE9F2F15618B /* GoalsModuleConfiguratorTests.swift */; };
+		5DE92D7D18A86056A08EFBA9 /* BalanceViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD1D9A622A618AF44FAD4D /* BalanceViewTests.swift */; };
+		60DAD06F018ABE9AB817FA8E /* RecommendationsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190DE1984D0A4008A8DD599 /* RecommendationsViewTests.swift */; };
 		62C6D890893F73DAFEB8F889 /* IntroRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6598366C7F1BABC26463 /* IntroRouterInput.swift */; };
+		65CBDEA743D1B61670C5F789 /* RecommendationsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A979BBB1CB47C84BAFEA04 /* RecommendationsRouterInput.swift */; };
+		6E676435FDF25E2701CC8763 /* InfromationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D64035E042AFDB871BD3D /* InfromationViewOutput.swift */; };
+		7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AFF6D33CF7C7EAEE41D7ED /* RecommendationsViewController.xib */; };
+		73BF4B47FB384201D1BD33DD /* RecommendationsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBE58DF17E3FAB14C33CBB /* RecommendationsModuleConfigurator.swift */; };
+		74025428146E839C726085F7 /* BalancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8034CE5671F14159CF6FF09 /* BalancePresenter.swift */; };
+		7565D7580C223C0CD342F199 /* InfromationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4997B0F594132EE166E69 /* InfromationViewController.swift */; };
+		75FD64F64B20A6C4D6499DEE /* RecommendationsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B89282469D910A3E09C181F /* RecommendationsViewOutput.swift */; };
+		7789994D6E2BC0FDDD2F1CC8 /* TabbarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A72BA4FD5F11678A7EF3F9 /* TabbarRouter.swift */; };
+		7B1514D3A56E0763DD744B9F /* InfromationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F145C08026895034C346A /* InfromationViewInput.swift */; };
+		7B76828072FBA2BD9E405DFF /* TabbarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193AC7E3225FB663AEAC0519 /* TabbarViewInput.swift */; };
 		7D0BD96130AFA0A3EBA0D04C /* Pods_MoneyHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6249948F0773098A19874B /* Pods_MoneyHelper.framework */; };
+		7D1418A64D16ECA93B90E58D /* InfromationModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D11EA2542B360DB995435 /* InfromationModuleConfigurator.swift */; };
+		82BE1EE694D2DF9CAEFBDCDD /* InfromationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4932432E1AC5BC94A6522918 /* InfromationViewTests.swift */; };
+		873DEA12F1BD0CE516339837 /* GoalsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E787E9FCC5F63269D29E9E /* GoalsModuleInput.swift */; };
+		88BF3A59F41E33603C405FFF /* BalanceModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C247E0AA1509912B0D8B433D /* BalanceModuleInput.swift */; };
 		8903046DFC8ACC00F348D36F /* Pods_MoneyHelper_MoneyHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3004F3D76AAA5D190A9B2A7A /* Pods_MoneyHelper_MoneyHelperTests.framework */; };
 		8BDC6999E9613AF1E6F9CFAE /* IntroPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E4369C4A469176BCE4535 /* IntroPresenterTests.swift */; };
+		8F5DF9912BE1B7C6DF808546 /* GoalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF86054F58683B36919C63A /* GoalsPresenter.swift */; };
+		95A54A585D5E4986FB1A1B0B /* TabbarModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC154CABDEC450F16C6EBA /* TabbarModuleConfigurator.swift */; };
 		965B249DAA31A91324FA77C1 /* IntroViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCBD9800E7ED04C8ADA057 /* IntroViewTests.swift */; };
+		9733021D09CCF7E719DBC972 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1395DB4BE358FA5BB8E75CF /* RecommendationsViewController.swift */; };
 		988DE1C2B60362578656FDB5 /* IntroModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2E9143437332DE472144EC /* IntroModuleConfiguratorTests.swift */; };
+		9B5DC124647F89CDCD65E36B /* BalanceViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */; };
+		9BDEB0B9B2E96421EDE29A8F /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC0D729A80848A0774025B /* BalanceViewController.swift */; };
+		AE564BD62478FC3CE2BCC79D /* GoalsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F723A90FA15A799DA956 /* GoalsViewTests.swift */; };
+		B10F368014963DB9AD777AC5 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81BC669EC3B2BE6000840F /* TabbarViewController.swift */; };
+		B4ADC7DBB850670B3E3FF24E /* GoalsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAE8026D15B7BACBE7CF53 /* GoalsPresenterTests.swift */; };
+		B57658264D99899CDF644987 /* TabbarRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C02F3CD72326E06BAB01DA /* TabbarRouterTests.swift */; };
 		B57DA86DA61D9F8060153180 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CC331D7D425F1931E204C /* IntroViewController.swift */; };
 		B7A46E59A6F65C3549A8ED66 /* IntroViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBEE6FBC26541E432C03E0 /* IntroViewInput.swift */; };
+		BD1322B0FE23C30DB36FAAA3 /* RecommendationsModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C8246931760930ED4B6193 /* RecommendationsModuleConfiguratorTests.swift */; };
+		BFFF8A546468FA87CA1434B4 /* RecommendationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF097B1F08DF75E0730A75CA /* RecommendationsPresenter.swift */; };
+		C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFAE5C29F2A1751E45C7BB6 /* TabbarViewController.xib */; };
 		C29C48CFB0247D30890910C5 /* IntroRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846385F801C64F080C9CC9FE /* IntroRouter.swift */; };
 		CE85ECA986380CDAE946E675 /* IntroModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72EC70F238A45FAB7B60AC /* IntroModuleInput.swift */; };
+		D5085A8205BD0560208CF78B /* InfromationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD97E26F10ACC70CA8D36A /* InfromationPresenter.swift */; };
 		D755E5148819416D42AE115A /* IntroViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FA14094B8C25BE7C52FB7 /* IntroViewOutput.swift */; };
+		D8A0E79051B59FA6EC75FB00 /* GoalsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7070599BA55883C2A374F9 /* GoalsViewOutput.swift */; };
+		DC14EB5B7FEFA981EC2E01CF /* BalanceRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EFD259D80310077EC8FB60 /* BalanceRouterTests.swift */; };
+		E460522712ECEE03C2AA28F4 /* RecommendationsRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AE59A72E50C52917F98804 /* RecommendationsRouterTests.swift */; };
+		EA7E4DA56B1702F72E7C000F /* BalanceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1E5936B2625014FFC83FF /* BalanceRouter.swift */; };
+		EE7E81E83EC3233BBF6968A6 /* TabbarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777BDDCA101EA3C821E5300 /* TabbarPresenter.swift */; };
+		F171890E4C7E7CEAD4CDC4EA /* TabbarModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344C163D054DFDE9BFB37375 /* TabbarModuleConfiguratorTests.swift */; };
+		F3CC04AE49425E0B7DD0A090 /* GoalsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DFCF23D51CAED7C6A0C97E /* GoalsRouter.swift */; };
+		F5BFE23BB44C0B1BA7F35CD1 /* InfromationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3812EF4708D272C27E95FD /* InfromationViewController.xib */; };
+		F8A3567048F9BC69769F5FB4 /* GoalsRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A16B9E8EDFCDDDF02E7C6A /* GoalsRouterTests.swift */; };
+		FA112CCA1E9A66DDEAF3F72E /* BalancePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE03551015634904C06709A /* BalancePresenterTests.swift */; };
+		FB71D02B94C932DF19A74F12 /* BalanceRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7532630F8B0FF7AF0FF105A3 /* BalanceRouterInput.swift */; };
+		FC52DD8EEA49CC482AE68874 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CBE9E61CADA1025E308065 /* GoalsViewController.swift */; };
 		FF191FA0F2C31996404C81D6 /* IntroRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1A8EB00A1196A0AC29DCA /* IntroRouterTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,12 +118,35 @@
 
 /* Begin PBXFileReference section */
 		000DB71892D1376B8102E0E5 /* IntroViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		03D4997B0F594132EE166E69 /* InfromationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationViewController.swift; sourceTree = "<group>"; };
 		077C19ED06FCCB055E187561 /* IntroModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroModuleConfigurator.swift; sourceTree = "<group>"; };
+		096D11EA2542B360DB995435 /* InfromationModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationModuleConfigurator.swift; sourceTree = "<group>"; };
+		0DCAE8026D15B7BACBE7CF53 /* GoalsPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsPresenterTests.swift; sourceTree = "<group>"; };
 		13D1A8EB00A1196A0AC29DCA /* IntroRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroRouterTests.swift; sourceTree = "<group>"; };
 		140CC331D7D425F1931E204C /* IntroViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		193AC7E3225FB663AEAC0519 /* TabbarViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarViewInput.swift; sourceTree = "<group>"; };
+		21A979BBB1CB47C84BAFEA04 /* RecommendationsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsRouterInput.swift; sourceTree = "<group>"; };
+		23E61876729E78669AE69A7B /* GoalsRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsRouterInput.swift; sourceTree = "<group>"; };
+		2777BDDCA101EA3C821E5300 /* TabbarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarPresenter.swift; sourceTree = "<group>"; };
+		2D3812EF4708D272C27E95FD /* InfromationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = InfromationViewController.xib; sourceTree = "<group>"; };
 		3004F3D76AAA5D190A9B2A7A /* Pods_MoneyHelper_MoneyHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper_MoneyHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344C163D054DFDE9BFB37375 /* TabbarModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		36EFD259D80310077EC8FB60 /* BalanceRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceRouterTests.swift; sourceTree = "<group>"; };
+		3B89282469D910A3E09C181F /* RecommendationsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsViewOutput.swift; sourceTree = "<group>"; };
+		3BE03551015634904C06709A /* BalancePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalancePresenterTests.swift; sourceTree = "<group>"; };
 		3C591494136E35B40491CCEE /* IntroPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroPresenter.swift; sourceTree = "<group>"; };
+		3E59F88C2C42AE9F2F15618B /* GoalsModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		3F81BC669EC3B2BE6000840F /* TabbarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		40A5A65F5FC17CF98815530E /* InfromationRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationRouterTests.swift; sourceTree = "<group>"; };
+		40D536C65304E08AA9ED4656 /* TabbarViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarViewOutput.swift; sourceTree = "<group>"; };
+		46DFCF23D51CAED7C6A0C97E /* GoalsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsRouter.swift; sourceTree = "<group>"; };
+		48299AA73E346A42EF08BF25 /* GoalsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GoalsViewController.xib; sourceTree = "<group>"; };
+		4932432E1AC5BC94A6522918 /* InfromationViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationViewTests.swift; sourceTree = "<group>"; };
+		4CBBE58DF17E3FAB14C33CBB /* RecommendationsModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsModuleConfigurator.swift; sourceTree = "<group>"; };
+		4DFAE5C29F2A1751E45C7BB6 /* TabbarViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
 		4DFBEE6FBC26541E432C03E0 /* IntroViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroViewInput.swift; sourceTree = "<group>"; };
+		4FB1E5936B2625014FFC83FF /* BalanceRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceRouter.swift; sourceTree = "<group>"; };
+		500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -68,26 +157,68 @@
 		50FD57BE1F6D6ACB00C10542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FD57BF1F6D6ACB00C10542 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
-		50FD57CE1F6D6ACB00C10542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FD57CF1F6D6ACB00C10542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50FD57EA1F6D6B9800C10542 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		50FD57ED1F6D6B9800C10542 /* Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
 		50FD57EF1F6D6B9900C10542 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5374D5F303E691E77A860104 /* BalanceViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
+		565BC5373B19AA8D8CE62560 /* BalanceViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceViewOutput.swift; sourceTree = "<group>"; };
+		58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceViewInput.swift; sourceTree = "<group>"; };
 		5A6249948F0773098A19874B /* Pods_MoneyHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9FA14094B8C25BE7C52FB7 /* IntroViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroViewOutput.swift; sourceTree = "<group>"; };
 		5F516BB3349265AA0680EDD5 /* Pods-MoneyHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper.release.xcconfig"; sourceTree = "<group>"; };
 		6C2E9143437332DE472144EC /* IntroModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		6DDC154CABDEC450F16C6EBA /* TabbarModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarModuleConfigurator.swift; sourceTree = "<group>"; };
+		726C31E43F7CFB2A55C3B545 /* TabbarPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarPresenterTests.swift; sourceTree = "<group>"; };
+		74163259D9F9E7E280F5A2B9 /* InfromationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationRouter.swift; sourceTree = "<group>"; };
+		7532630F8B0FF7AF0FF105A3 /* BalanceRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceRouterInput.swift; sourceTree = "<group>"; };
+		78AE59A72E50C52917F98804 /* RecommendationsRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsRouterTests.swift; sourceTree = "<group>"; };
+		81C6269611E1131A305A1671 /* RecommendationsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsRouter.swift; sourceTree = "<group>"; };
 		846385F801C64F080C9CC9FE /* IntroRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroRouter.swift; sourceTree = "<group>"; };
+		84846585E4B84EB049CA55A6 /* GoalsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsViewInput.swift; sourceTree = "<group>"; };
+		864595762CBF7DD2223AF747 /* RecommendationsViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsViewInput.swift; sourceTree = "<group>"; };
 		869E4369C4A469176BCE4535 /* IntroPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroPresenterTests.swift; sourceTree = "<group>"; };
+		88AFF6D33CF7C7EAEE41D7ED /* RecommendationsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RecommendationsViewController.xib; sourceTree = "<group>"; };
+		890838F288B499D0AE328D74 /* BalanceModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		8E9EF0664846C2784BC0106E /* RecommendationsPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsPresenterTests.swift; sourceTree = "<group>"; };
+		904838083B2D692CD8A4657D /* InfromationModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		913D64035E042AFDB871BD3D /* InfromationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationViewOutput.swift; sourceTree = "<group>"; };
+		93C8246931760930ED4B6193 /* RecommendationsModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		9AD692D4C3CADF0E922E096C /* GoalsModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsModuleConfigurator.swift; sourceTree = "<group>"; };
+		9B9BE44BE90C51D0911F6660 /* TabbarViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarViewTests.swift; sourceTree = "<group>"; };
+		9BFC0D729A80848A0774025B /* BalanceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		A1395DB4BE358FA5BB8E75CF /* RecommendationsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
 		A707E84C4C50B93CAC388DA3 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7FD1D9A622A618AF44FAD4D /* BalanceViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceViewTests.swift; sourceTree = "<group>"; };
+		AC7070599BA55883C2A374F9 /* GoalsViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsViewOutput.swift; sourceTree = "<group>"; };
+		B23D25B435E60E76B426FDA9 /* RecommendationsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsModuleInput.swift; sourceTree = "<group>"; };
+		B2E2F0F27AE8EDF037EDDF3B /* TabbarRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarRouterInput.swift; sourceTree = "<group>"; };
+		B357FF0F3C56F87D22881D94 /* InfromationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationModuleInput.swift; sourceTree = "<group>"; };
+		B94D1C4565F3EB024FB8E05F /* InfromationPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationPresenterTests.swift; sourceTree = "<group>"; };
 		BB998A9B2F561FC235BEF78D /* Pods-MoneyHelper-MoneyHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC5F28D969BDEE473C470443 /* TabbarModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarModuleInput.swift; sourceTree = "<group>"; };
 		BEB837A2656CD5B37B581F4A /* Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyHelper_MoneyHelperTests_MoneyHelperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190DE1984D0A4008A8DD599 /* RecommendationsViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsViewTests.swift; sourceTree = "<group>"; };
+		C247E0AA1509912B0D8B433D /* BalanceModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceModuleInput.swift; sourceTree = "<group>"; };
+		C2C02F3CD72326E06BAB01DA /* TabbarRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarRouterTests.swift; sourceTree = "<group>"; };
+		C2CBE9E61CADA1025E308065 /* GoalsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		C4A16B9E8EDFCDDDF02E7C6A /* GoalsRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsRouterTests.swift; sourceTree = "<group>"; };
+		C6A72BA4FD5F11678A7EF3F9 /* TabbarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabbarRouter.swift; sourceTree = "<group>"; };
 		D0BCBD9800E7ED04C8ADA057 /* IntroViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroViewTests.swift; sourceTree = "<group>"; };
 		D0DC6598366C7F1BABC26463 /* IntroRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroRouterInput.swift; sourceTree = "<group>"; };
 		DAB3545E303B8A48BDD424EE /* Pods-MoneyHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper/Pods-MoneyHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD51989BBF219E2E30B8883 /* BalanceModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceModuleConfigurator.swift; sourceTree = "<group>"; };
+		DC5F145C08026895034C346A /* InfromationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationViewInput.swift; sourceTree = "<group>"; };
 		DE681E02C1E68C27D110EA87 /* Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests/Pods-MoneyHelper-MoneyHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E0F723A90FA15A799DA956 /* GoalsViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsViewTests.swift; sourceTree = "<group>"; };
+		E8034CE5671F14159CF6FF09 /* BalancePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalancePresenter.swift; sourceTree = "<group>"; };
+		E8501498BF8F4DD025A785C8 /* InfromationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationRouterInput.swift; sourceTree = "<group>"; };
 		E86BAE13A9DB3EE87C1D2A65 /* Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests/Pods-MoneyHelper-MoneyHelperTests-MoneyHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA72EC70F238A45FAB7B60AC /* IntroModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntroModuleInput.swift; sourceTree = "<group>"; };
+		EF097B1F08DF75E0730A75CA /* RecommendationsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecommendationsPresenter.swift; sourceTree = "<group>"; };
+		EFF86054F58683B36919C63A /* GoalsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsPresenter.swift; sourceTree = "<group>"; };
+		F3E787E9FCC5F63269D29E9E /* GoalsModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsModuleInput.swift; sourceTree = "<group>"; };
+		F4FD97E26F10ACC70CA8D36A /* InfromationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfromationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +249,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040941441FA05F6B3B75927F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C4A16B9E8EDFCDDDF02E7C6A /* GoalsRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		08A2725B29459F5F8B4D9285 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				40A5A65F5FC17CF98815530E /* InfromationRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		0B390D959F75C3452A33FBED /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +272,103 @@
 				D0DC6598366C7F1BABC26463 /* IntroRouterInput.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		0B8D65A9F0E71E6DB2258187 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F3FCAC531E6E34273749DA5C /* Configurator */,
+				040941441FA05F6B3B75927F /* Router */,
+				459892DB1EFCE9868D9F2DEF /* Presenter */,
+				CA9EBA4D869CF3783A6AEDEB /* View */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		12DF91E7AC02351706DC94ED /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E8034CE5671F14159CF6FF09 /* BalancePresenter.swift */,
+				C247E0AA1509912B0D8B433D /* BalanceModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1A8F33D5A1C1E6EA639311F3 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				34B009B37AD92A413A8F258A /* Configurator */,
+				1B2F9798BDCB989A2E1AAD6D /* Router */,
+				12DF91E7AC02351706DC94ED /* Presenter */,
+				FAE21DFFAC5C0FE552A5ED90 /* View */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
+		1B2F9798BDCB989A2E1AAD6D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4FB1E5936B2625014FFC83FF /* BalanceRouter.swift */,
+				7532630F8B0FF7AF0FF105A3 /* BalanceRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1E15032ADAFA471B750505B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD1D9A622A618AF44FAD4D /* BalanceViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E6FAE941017EB964F392AA3 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7CF4D6235DA34A591E525 /* Configurator */,
+				3F9E025924919573AD6123A8 /* Router */,
+				32AFCE2EE67BAD265C26CE86 /* Presenter */,
+				CAFD3064849F166F1CDC3F00 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		1FF37F8172162B6AEED59E50 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4CBBE58DF17E3FAB14C33CBB /* RecommendationsModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		244B76357C1E3E8A340234EC /* Recommendations */ = {
+			isa = PBXGroup;
+			children = (
+				1FF37F8172162B6AEED59E50 /* Configurator */,
+				F27A8254C2550B5B4C63ED32 /* Router */,
+				EC0AB8D8306E3C4C00D9D317 /* Presenter */,
+				D2B4998095F5435FDA9ED51C /* View */,
+			);
+			path = Recommendations;
+			sourceTree = "<group>";
+		};
+		3287859D17661D2766E39F4A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA94B58404055BE2973CB9 /* Configurator */,
+				C9B1CF0879BB4F574E413B52 /* Router */,
+				DBC96BA2AA4CD479C842A14B /* Presenter */,
+				BFBB18B74FED3965025B74A2 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		32AFCE2EE67BAD265C26CE86 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				726C31E43F7CFB2A55C3B545 /* TabbarPresenterTests.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		32F17CA2BE43D39ED912FBDA /* Pods */ = {
@@ -140,10 +384,82 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		331D23C72CC5121DFA2B9908 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B94D1C4565F3EB024FB8E05F /* InfromationPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		34B009B37AD92A413A8F258A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				DAD51989BBF219E2E30B8883 /* BalanceModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3C1E8429F6DAEE80096F8EA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4932432E1AC5BC94A6522918 /* InfromationViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3FDCD977A6A66F17B5D97B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				93C8246931760930ED4B6193 /* RecommendationsModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D670D70E47E1AA5707CDD66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				36EFD259D80310077EC8FB60 /* BalanceRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3F9E025924919573AD6123A8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C2C02F3CD72326E06BAB01DA /* TabbarRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		43C31B5F8069AB0DEA9ADF53 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				890838F288B499D0AE328D74 /* BalanceModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		447D180374D41D6949D7ACD3 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
 				077C19ED06FCCB055E187561 /* IntroModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		459892DB1EFCE9868D9F2DEF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0DCAE8026D15B7BACBE7CF53 /* GoalsPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		46938A95481E6BFB85288D81 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				904838083B2D692CD8A4657D /* InfromationModuleConfiguratorTests.swift */,
 			);
 			path = Configurator;
 			sourceTree = "<group>";
@@ -324,7 +640,7 @@
 		50FD57CD1F6D6ACB00C10542 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				50FD57CE1F6D6ACB00C10542 /* Assets.xcassets */,
+				500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -347,6 +663,11 @@
 			isa = PBXGroup;
 			children = (
 				50FD57D31F6D6ACC00C10542 /* Intro */,
+				3287859D17661D2766E39F4A /* Tabbar */,
+				1A8F33D5A1C1E6EA639311F3 /* Balance */,
+				52C338A35787B27D08AB3256 /* Goals */,
+				244B76357C1E3E8A340234EC /* Recommendations */,
+				913674EBC21697B8F6ADD2CB /* Infromation */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -405,6 +726,11 @@
 			isa = PBXGroup;
 			children = (
 				50FD57E71F6D6AF000C10542 /* Intro */,
+				1E6FAE941017EB964F392AA3 /* Tabbar */,
+				574CEFB68211448D868DFA00 /* Balance */,
+				0B8D65A9F0E71E6DB2258187 /* Goals */,
+				83F2A9F8318B0B8E245E4ACB /* Recommendations */,
+				99A2BC40F11A5404CF29FE58 /* Infromation */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -427,12 +753,51 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		52C338A35787B27D08AB3256 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				A677D640D520BF822DF1C7E4 /* Configurator */,
+				73022A8B182BE0E2740E5A0C /* Router */,
+				F08C4E94891AB7609D9852F6 /* Presenter */,
+				EFD048003F93691D3BB62A0E /* View */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		52E95624E949EF97029A0C8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C190DE1984D0A4008A8DD599 /* RecommendationsViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		574CEFB68211448D868DFA00 /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				43C31B5F8069AB0DEA9ADF53 /* Configurator */,
+				3D670D70E47E1AA5707CDD66 /* Router */,
+				D920D3B0A139C53B7B2EE33F /* Presenter */,
+				1E15032ADAFA471B750505B0 /* View */,
+			);
+			path = Balance;
+			sourceTree = "<group>";
+		};
 		599F05237BD61B604F68086C /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
 				6C2E9143437332DE472144EC /* IntroModuleConfiguratorTests.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		5AE49AC24B36A9BB9FF906C2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F4FD97E26F10ACC70CA8D36A /* InfromationPresenter.swift */,
+				B357FF0F3C56F87D22881D94 /* InfromationModuleInput.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		63ADA7174B05D92CE5B3C439 /* Frameworks */ = {
@@ -445,6 +810,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		73022A8B182BE0E2740E5A0C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				46DFCF23D51CAED7C6A0C97E /* GoalsRouter.swift */,
+				23E61876729E78669AE69A7B /* GoalsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		834FC910B7C803DF0872D5D4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				78AE59A72E50C52917F98804 /* RecommendationsRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		83ADC12EA31C7931467A79DD /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +834,17 @@
 				EA72EC70F238A45FAB7B60AC /* IntroModuleInput.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		83F2A9F8318B0B8E245E4ACB /* Recommendations */ = {
+			isa = PBXGroup;
+			children = (
+				3D3FDCD977A6A66F17B5D97B /* Configurator */,
+				834FC910B7C803DF0872D5D4 /* Router */,
+				E4BB232CDDFE3E5B705F4B05 /* Presenter */,
+				52E95624E949EF97029A0C8D /* View */,
+			);
+			path = Recommendations;
 			sourceTree = "<group>";
 		};
 		8AEA376C59332CA7AE7E8885 /* View */ = {
@@ -465,10 +858,148 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		913674EBC21697B8F6ADD2CB /* Infromation */ = {
+			isa = PBXGroup;
+			children = (
+				E8AF32AB09E71FB7C17C0049 /* Configurator */,
+				C3C036F3C77509AC7BBC904A /* Router */,
+				5AE49AC24B36A9BB9FF906C2 /* Presenter */,
+				C25B1D7B5F91F7A14D01FDA1 /* View */,
+			);
+			path = Infromation;
+			sourceTree = "<group>";
+		};
+		99A2BC40F11A5404CF29FE58 /* Infromation */ = {
+			isa = PBXGroup;
+			children = (
+				46938A95481E6BFB85288D81 /* Configurator */,
+				08A2725B29459F5F8B4D9285 /* Router */,
+				331D23C72CC5121DFA2B9908 /* Presenter */,
+				3C1E8429F6DAEE80096F8EA1 /* View */,
+			);
+			path = Infromation;
+			sourceTree = "<group>";
+		};
+		A677D640D520BF822DF1C7E4 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				9AD692D4C3CADF0E922E096C /* GoalsModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		BAA7CF4D6235DA34A591E525 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				344C163D054DFDE9BFB37375 /* TabbarModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		BFBB18B74FED3965025B74A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F81BC669EC3B2BE6000840F /* TabbarViewController.swift */,
+				4DFAE5C29F2A1751E45C7BB6 /* TabbarViewController.xib */,
+				193AC7E3225FB663AEAC0519 /* TabbarViewInput.swift */,
+				40D536C65304E08AA9ED4656 /* TabbarViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C25B1D7B5F91F7A14D01FDA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03D4997B0F594132EE166E69 /* InfromationViewController.swift */,
+				2D3812EF4708D272C27E95FD /* InfromationViewController.xib */,
+				DC5F145C08026895034C346A /* InfromationViewInput.swift */,
+				913D64035E042AFDB871BD3D /* InfromationViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3C036F3C77509AC7BBC904A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				74163259D9F9E7E280F5A2B9 /* InfromationRouter.swift */,
+				E8501498BF8F4DD025A785C8 /* InfromationRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C9B1CF0879BB4F574E413B52 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C6A72BA4FD5F11678A7EF3F9 /* TabbarRouter.swift */,
+				B2E2F0F27AE8EDF037EDDF3B /* TabbarRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CA9EBA4D869CF3783A6AEDEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1E0F723A90FA15A799DA956 /* GoalsViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAFD3064849F166F1CDC3F00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B9BE44BE90C51D0911F6660 /* TabbarViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDDA94B58404055BE2973CB9 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC154CABDEC450F16C6EBA /* TabbarModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D2B4998095F5435FDA9ED51C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1395DB4BE358FA5BB8E75CF /* RecommendationsViewController.swift */,
+				88AFF6D33CF7C7EAEE41D7ED /* RecommendationsViewController.xib */,
+				864595762CBF7DD2223AF747 /* RecommendationsViewInput.swift */,
+				3B89282469D910A3E09C181F /* RecommendationsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D920D3B0A139C53B7B2EE33F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3BE03551015634904C06709A /* BalancePresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DBC96BA2AA4CD479C842A14B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2777BDDCA101EA3C821E5300 /* TabbarPresenter.swift */,
+				BC5F28D969BDEE473C470443 /* TabbarModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		E2F61ADD3B73E5A14980388A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				869E4369C4A469176BCE4535 /* IntroPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E4BB232CDDFE3E5B705F4B05 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8E9EF0664846C2784BC0106E /* RecommendationsPresenterTests.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -479,6 +1010,71 @@
 				13D1A8EB00A1196A0AC29DCA /* IntroRouterTests.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		E8AF32AB09E71FB7C17C0049 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				096D11EA2542B360DB995435 /* InfromationModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		EC0AB8D8306E3C4C00D9D317 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF097B1F08DF75E0730A75CA /* RecommendationsPresenter.swift */,
+				B23D25B435E60E76B426FDA9 /* RecommendationsModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EFD048003F93691D3BB62A0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBE9E61CADA1025E308065 /* GoalsViewController.swift */,
+				48299AA73E346A42EF08BF25 /* GoalsViewController.xib */,
+				84846585E4B84EB049CA55A6 /* GoalsViewInput.swift */,
+				AC7070599BA55883C2A374F9 /* GoalsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F08C4E94891AB7609D9852F6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EFF86054F58683B36919C63A /* GoalsPresenter.swift */,
+				F3E787E9FCC5F63269D29E9E /* GoalsModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F27A8254C2550B5B4C63ED32 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				81C6269611E1131A305A1671 /* RecommendationsRouter.swift */,
+				21A979BBB1CB47C84BAFEA04 /* RecommendationsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F3FCAC531E6E34273749DA5C /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3E59F88C2C42AE9F2F15618B /* GoalsModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		FAE21DFFAC5C0FE552A5ED90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC0D729A80848A0774025B /* BalanceViewController.swift */,
+				5374D5F303E691E77A860104 /* BalanceViewController.xib */,
+				58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */,
+				565BC5373B19AA8D8CE62560 /* BalanceViewOutput.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,6 +1195,12 @@
 			files = (
 				50FD57FB1F6D71E500C10542 /* LaunchScreen.xib in Resources */,
 				289F3989831DB7EC4D8F46B5 /* IntroViewController.xib in Resources */,
+				C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */,
+				10DB714340480620C15097E9 /* BalanceViewController.xib in Resources */,
+				54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */,
+				7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */,
+				500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */,
+				F5BFE23BB44C0B1BA7F35CD1 /* InfromationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +1426,46 @@
 				B57DA86DA61D9F8060153180 /* IntroViewController.swift in Sources */,
 				B7A46E59A6F65C3549A8ED66 /* IntroViewInput.swift in Sources */,
 				D755E5148819416D42AE115A /* IntroViewOutput.swift in Sources */,
+				95A54A585D5E4986FB1A1B0B /* TabbarModuleConfigurator.swift in Sources */,
+				7789994D6E2BC0FDDD2F1CC8 /* TabbarRouter.swift in Sources */,
+				04D35BDACB988CD367B148B3 /* TabbarRouterInput.swift in Sources */,
+				EE7E81E83EC3233BBF6968A6 /* TabbarPresenter.swift in Sources */,
+				3EFD4C9C2A9FA0F4410CCB7D /* TabbarModuleInput.swift in Sources */,
+				B10F368014963DB9AD777AC5 /* TabbarViewController.swift in Sources */,
+				7B76828072FBA2BD9E405DFF /* TabbarViewInput.swift in Sources */,
+				37A98D93E3BFD07408B5CE12 /* TabbarViewOutput.swift in Sources */,
+				1799189863417CC4F5640B6C /* BalanceModuleConfigurator.swift in Sources */,
+				EA7E4DA56B1702F72E7C000F /* BalanceRouter.swift in Sources */,
+				FB71D02B94C932DF19A74F12 /* BalanceRouterInput.swift in Sources */,
+				74025428146E839C726085F7 /* BalancePresenter.swift in Sources */,
+				88BF3A59F41E33603C405FFF /* BalanceModuleInput.swift in Sources */,
+				9BDEB0B9B2E96421EDE29A8F /* BalanceViewController.swift in Sources */,
+				9B5DC124647F89CDCD65E36B /* BalanceViewInput.swift in Sources */,
+				598D3437FD8CF375ED863FD0 /* BalanceViewOutput.swift in Sources */,
+				467149E0D44AC08B59945F6E /* GoalsModuleConfigurator.swift in Sources */,
+				F3CC04AE49425E0B7DD0A090 /* GoalsRouter.swift in Sources */,
+				28493F4E82301C4326D889B5 /* GoalsRouterInput.swift in Sources */,
+				8F5DF9912BE1B7C6DF808546 /* GoalsPresenter.swift in Sources */,
+				873DEA12F1BD0CE516339837 /* GoalsModuleInput.swift in Sources */,
+				FC52DD8EEA49CC482AE68874 /* GoalsViewController.swift in Sources */,
+				5813EE7C212711A84320995F /* GoalsViewInput.swift in Sources */,
+				D8A0E79051B59FA6EC75FB00 /* GoalsViewOutput.swift in Sources */,
+				73BF4B47FB384201D1BD33DD /* RecommendationsModuleConfigurator.swift in Sources */,
+				3F87CA406CDE9820ED383E23 /* RecommendationsRouter.swift in Sources */,
+				65CBDEA743D1B61670C5F789 /* RecommendationsRouterInput.swift in Sources */,
+				BFFF8A546468FA87CA1434B4 /* RecommendationsPresenter.swift in Sources */,
+				3F5829365BBD92FB9550AB49 /* RecommendationsModuleInput.swift in Sources */,
+				9733021D09CCF7E719DBC972 /* RecommendationsViewController.swift in Sources */,
+				249AF0147430871693D14791 /* RecommendationsViewInput.swift in Sources */,
+				75FD64F64B20A6C4D6499DEE /* RecommendationsViewOutput.swift in Sources */,
+				7D1418A64D16ECA93B90E58D /* InfromationModuleConfigurator.swift in Sources */,
+				02DC3B7D5A524243E656CEFB /* InfromationRouter.swift in Sources */,
+				1438A82F87FBF7DCF3D17DC2 /* InfromationRouterInput.swift in Sources */,
+				D5085A8205BD0560208CF78B /* InfromationPresenter.swift in Sources */,
+				1EAE841EB0F1C4318E1BF07A /* InfromationModuleInput.swift in Sources */,
+				7565D7580C223C0CD342F199 /* InfromationViewController.swift in Sources */,
+				7B1514D3A56E0763DD744B9F /* InfromationViewInput.swift in Sources */,
+				6E676435FDF25E2701CC8763 /* InfromationViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +1478,26 @@
 				FF191FA0F2C31996404C81D6 /* IntroRouterTests.swift in Sources */,
 				8BDC6999E9613AF1E6F9CFAE /* IntroPresenterTests.swift in Sources */,
 				965B249DAA31A91324FA77C1 /* IntroViewTests.swift in Sources */,
+				F171890E4C7E7CEAD4CDC4EA /* TabbarModuleConfiguratorTests.swift in Sources */,
+				B57658264D99899CDF644987 /* TabbarRouterTests.swift in Sources */,
+				3069C2633BD72D9301E5F240 /* TabbarPresenterTests.swift in Sources */,
+				4052D1B17893B04B1EC7318A /* TabbarViewTests.swift in Sources */,
+				396F8F667BAEB150E4A845D7 /* BalanceModuleConfiguratorTests.swift in Sources */,
+				DC14EB5B7FEFA981EC2E01CF /* BalanceRouterTests.swift in Sources */,
+				FA112CCA1E9A66DDEAF3F72E /* BalancePresenterTests.swift in Sources */,
+				5DE92D7D18A86056A08EFBA9 /* BalanceViewTests.swift in Sources */,
+				59D6D917C26EE294C0732DC7 /* GoalsModuleConfiguratorTests.swift in Sources */,
+				F8A3567048F9BC69769F5FB4 /* GoalsRouterTests.swift in Sources */,
+				B4ADC7DBB850670B3E3FF24E /* GoalsPresenterTests.swift in Sources */,
+				AE564BD62478FC3CE2BCC79D /* GoalsViewTests.swift in Sources */,
+				BD1322B0FE23C30DB36FAAA3 /* RecommendationsModuleConfiguratorTests.swift in Sources */,
+				E460522712ECEE03C2AA28F4 /* RecommendationsRouterTests.swift in Sources */,
+				4D9E53E4D31055D2039EAE79 /* RecommendationsPresenterTests.swift in Sources */,
+				60DAD06F018ABE9AB817FA8E /* RecommendationsViewTests.swift in Sources */,
+				07FAD9B5AF5F8DC1307225D3 /* InfromationModuleConfiguratorTests.swift in Sources */,
+				3609FDA9EE441B9E3E4A071E /* InfromationRouterTests.swift in Sources */,
+				4C338311137FF32CC64638D2 /* InfromationPresenterTests.swift in Sources */,
+				82BE1EE694D2DF9CAEFBDCDD /* InfromationViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,5 +20,7 @@ final class IntroPresenter: IntroViewOutput, IntroModuleInput {
     }
 
     // MARK: - IntroModuleInput
-
+    func moveForwardAction() {
+        self.router.showMainScreen()
+    }
 }
