@@ -11,7 +11,9 @@ import UIKit
 final class RecommendationsViewController: UIViewController, RecommendationsViewInput, ModuleTransitionable {
 
     // MARK: - Properties
-
+    @IBOutlet weak var tableView: UITableView!
+    private var adapter: DepositsListTableViewAdapter?
+    
     var output: RecommendationsViewOutput!
 
     // MARK: - UIViewController
@@ -25,6 +27,20 @@ final class RecommendationsViewController: UIViewController, RecommendationsView
 
     func setupInitialState() {
 
+    }
+
+    func loadItems(_ deposits: [DepositEntity]) {
+        let adapter = DepositsListTableViewAdapter(
+            forTableView: tableView,
+            items: deposits,
+            selectAction: { [weak self] card in
+                //self?.presenter?.selectRegion(region: region)
+            }
+        )
+        self.adapter = adapter
+        tableView.delegate = adapter
+        tableView.dataSource = adapter
+        tableView.reloadData()
     }
 
 }

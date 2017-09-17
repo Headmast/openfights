@@ -12,7 +12,7 @@ final class GoalsViewController: UIViewController, GoalsViewInput, ModuleTransit
 
     // MARK: - Properties
     @IBOutlet weak var tableView: UITableView!
-    
+
     var output: GoalsViewOutput!
 
     // MARK: - UIViewController
