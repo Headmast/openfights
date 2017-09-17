@@ -57,6 +57,8 @@
 		5066415C1F6E95BF009C8960 /* depo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415B1F6E9250009C8960 /* depo.json */; };
 		5066415D1F6E95C3009C8960 /* stub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506641591F6E91EF009C8960 /* stub.jpg */; };
 		5066415E1F6E95C5009C8960 /* stub.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5066415A1F6E91EF009C8960 /* stub.txt */; };
+		506641601F6E9893009C8960 /* goals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415F1F6E988F009C8960 /* goals.json */; };
+		506641621F6E98C5009C8960 /* GoalsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -197,6 +199,8 @@
 		506641591F6E91EF009C8960 /* stub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stub.jpg; sourceTree = "<group>"; };
 		5066415A1F6E91EF009C8960 /* stub.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stub.txt; sourceTree = "<group>"; };
 		5066415B1F6E9250009C8960 /* depo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = depo.json; sourceTree = "<group>"; };
+		5066415F1F6E988F009C8960 /* goals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = goals.json; sourceTree = "<group>"; };
+		506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListTableViewAdapter.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -547,6 +551,7 @@
 		506641581F6E91EF009C8960 /* Stubs */ = {
 			isa = PBXGroup;
 			children = (
+				5066415F1F6E988F009C8960 /* goals.json */,
 				5066415B1F6E9250009C8960 /* depo.json */,
 				506641591F6E91EF009C8960 /* stub.jpg */,
 				5066415A1F6E91EF009C8960 /* stub.txt */,
@@ -1136,6 +1141,7 @@
 		EFD048003F93691D3BB62A0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */,
 				C2CBE9E61CADA1025E308065 /* GoalsViewController.swift */,
 				48299AA73E346A42EF08BF25 /* GoalsViewController.xib */,
 				84846585E4B84EB049CA55A6 /* GoalsViewInput.swift */,
@@ -1300,6 +1306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506641601F6E9893009C8960 /* goals.json in Resources */,
 				50FD57FB1F6D71E500C10542 /* LaunchScreen.xib in Resources */,
 				289F3989831DB7EC4D8F46B5 /* IntroViewController.xib in Resources */,
 				C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */,
@@ -1579,6 +1586,7 @@
 				74025428146E839C726085F7 /* BalancePresenter.swift in Sources */,
 				88BF3A59F41E33603C405FFF /* BalanceModuleInput.swift in Sources */,
 				506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */,
+				506641621F6E98C5009C8960 /* GoalsListTableViewAdapter.swift in Sources */,
 				9BDEB0B9B2E96421EDE29A8F /* BalanceViewController.swift in Sources */,
 				506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */,
 				9B5DC124647F89CDCD65E36B /* BalanceViewInput.swift in Sources */,

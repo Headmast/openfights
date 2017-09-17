@@ -15,7 +15,6 @@ public class GoalsRequest: BaseServerRequest<[GoalEntity]> {
         let params = ServerRequestParameter.simpleParams(["test": "test"])
         let request = ServerRequest(method: .get, relativeUrl: ServerPointURLs.goalsList, baseUrl: ServerPointURLs.baseUrl, parameters: params)
         request.cachePolicy = .serverOnly
-
         return request
     }
 
@@ -29,15 +28,15 @@ public class GoalsRequest: BaseServerRequest<[GoalEntity]> {
                     return .failure(BaseServerError.cantMapping)
                 }
 
-                guard let cards = json["Goals"] as? NSDictionary else {
+                guard let goals = json["Goals"] as? NSDictionary else {
                     return .failure(BaseServerError.cantMapping)
                 }
 
-                guard let card = cards["Card"] as? [[String : Any]] else {
+                guard let goal = goals["Goal"] as? [[String : Any]] else {
                     return .failure(BaseServerError.cantMapping)
                 }
 
-                guard let mapped = Mapper<GoalEntity>().mapArray(JSONObject: card) else {
+                guard let mapped = Mapper<GoalEntity>().mapArray(JSONObject: goal) else {
                     return .failure(BaseServerError.cantMapping)
                 }
                 return .success(mapped, flag)

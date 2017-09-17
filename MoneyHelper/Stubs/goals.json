@@ -1,0 +1,28 @@
+{
+  "RqUID": "123e4567-e89b-12d3-a456-426655440000",
+  "Goals": {
+    "Goal": [
+      {
+        "GoalName": "Купить ВАЗ 2109",
+        "GoalId": "10000",
+        "GoalType": "6",
+        "GoalDate": "60",
+        "GoalPrice": "100 000"
+      },
+      {
+        "GoalName": "Купить ВАЗ Приора",
+        "GoalId": "10000",
+        "GoalType": "6",
+        "GoalDate": "60",
+        "GoalPrice": "200 000"
+      },
+      {
+        "GoalName": "Купить ВАЗ Веста",
+        "GoalId": "10000",
+        "GoalType": "6",
+        "GoalDate": "60",
+        "GoalPrice": "600 000"
+      }
+    ]
+  }
+}
