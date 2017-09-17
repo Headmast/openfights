@@ -10,7 +10,7 @@ target 'MoneyHelper' do
     pod 'AlamofireImage'
     pod 'AlamofireNetworkActivityIndicator', '~> 2.1'
     pod 'SwiftyUserDefaults'
-
+    pod 'ObjectMapper'
 
     target 'MoneyHelperTests' do
         # Put pods used for both test targets here

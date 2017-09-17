@@ -27,4 +27,9 @@ final class IntroViewController: UIViewController, IntroViewInput, ModuleTransit
 
     }
 
+    // MARK: - IntroViewOutput
+    @IBAction func moveForwardAction(_ sender: UIButton) {
+        output.moveForwardAction()
+    }
+
 }

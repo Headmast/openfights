@@ -9,4 +9,6 @@
 import Foundation
 
 protocol IntroRouterInput {
+
+    func showMainScreen()
 }
