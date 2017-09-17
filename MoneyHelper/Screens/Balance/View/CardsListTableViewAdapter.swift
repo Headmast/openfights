@@ -35,7 +35,7 @@ extension CardsListTableViewAdapter: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue(CardCell.self, from: indexPath)
-        cell.fillCell(title: "Кредитная карта \(items[indexPath.row].cardName ?? "")")
+        cell.fillCell(title: "\(items[indexPath.row].cardName ?? "")")
         return cell
     }
 

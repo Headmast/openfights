@@ -54,6 +54,9 @@
 		506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641511F6E65E5009C8960 /* GoalsListRequest.swift */; };
 		506641551F6E70D0009C8960 /* DepositsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641541F6E70CF009C8960 /* DepositsListRequest.swift */; };
 		506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */; };
+		5066415C1F6E95BF009C8960 /* depo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415B1F6E9250009C8960 /* depo.json */; };
+		5066415D1F6E95C3009C8960 /* stub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506641591F6E91EF009C8960 /* stub.jpg */; };
+		5066415E1F6E95C5009C8960 /* stub.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5066415A1F6E91EF009C8960 /* stub.txt */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -191,6 +194,9 @@
 		506641511F6E65E5009C8960 /* GoalsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListRequest.swift; sourceTree = "<group>"; };
 		506641541F6E70CF009C8960 /* DepositsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DepositsListRequest.swift; path = ../../../../Deposite/DepositsListRequest.swift; sourceTree = "<group>"; };
 		506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositsListTableViewAdapter.swift; sourceTree = "<group>"; };
+		506641591F6E91EF009C8960 /* stub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stub.jpg; sourceTree = "<group>"; };
+		5066415A1F6E91EF009C8960 /* stub.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stub.txt; sourceTree = "<group>"; };
+		5066415B1F6E9250009C8960 /* depo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = depo.json; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -538,6 +544,16 @@
 			path = ServerRequests;
 			sourceTree = "<group>";
 		};
+		506641581F6E91EF009C8960 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				5066415B1F6E9250009C8960 /* depo.json */,
+				506641591F6E91EF009C8960 /* stub.jpg */,
+				5066415A1F6E91EF009C8960 /* stub.txt */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		509C5E6F8FE0A4A67D9A3F86 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +587,7 @@
 		50D01B181F6D4CF70090CD06 /* MoneyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				506641581F6E91EF009C8960 /* Stubs */,
 				50FD57BD1F6D6ACB00C10542 /* Application */,
 				50FD57C31F6D6ACB00C10542 /* Library */,
 				50FD57C01F6D6ACB00C10542 /* Models */,
@@ -1286,8 +1303,11 @@
 				50FD57FB1F6D71E500C10542 /* LaunchScreen.xib in Resources */,
 				289F3989831DB7EC4D8F46B5 /* IntroViewController.xib in Resources */,
 				C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */,
+				5066415C1F6E95BF009C8960 /* depo.json in Resources */,
+				5066415E1F6E95C5009C8960 /* stub.txt in Resources */,
 				10DB714340480620C15097E9 /* BalanceViewController.xib in Resources */,
 				54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */,
+				5066415D1F6E95C3009C8960 /* stub.jpg in Resources */,
 				7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */,
 				500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */,
 				501747391F6DD66E000B547A /* CardCell.xib in Resources */,
@@ -1384,6 +1404,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1392,6 +1413,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
@@ -1410,6 +1432,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1418,6 +1441,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
@@ -1472,6 +1496,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1480,6 +1505,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
