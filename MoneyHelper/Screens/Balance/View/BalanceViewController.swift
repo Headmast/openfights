@@ -12,6 +12,7 @@ final class BalanceViewController: UIViewController, BalanceViewInput, ModuleTra
 
     // MARK: - Properties
     @IBOutlet weak var tableView: UITableView!
+    private var adapter: CardsListTableViewAdapter?
     var output: BalanceViewOutput!
 
     // MARK: - UIViewController
@@ -24,10 +25,21 @@ final class BalanceViewController: UIViewController, BalanceViewInput, ModuleTra
     // MARK: - BalanceViewInput
 
     func setupInitialState() {
-        tableView?.registerNib(CardCell.self)
-        tableView.tableFooterView = UIView()
-        tableView.delegate = self
-        tableView.dataSource = self
+
+    }
+
+    func loadCards(_ cards: [CardEntity]) {
+        let adapter = CardsListTableViewAdapter(
+            forTableView: tableView,
+            items: cards,
+            selectAction: { [weak self] card in
+                //self?.presenter?.selectRegion(region: region)
+            }
+        )
+        self.adapter = adapter
+        tableView.delegate = adapter
+        tableView.dataSource = adapter
+        tableView.reloadData()
     }
 }
 

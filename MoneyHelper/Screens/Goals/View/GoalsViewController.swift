@@ -11,7 +11,8 @@ import UIKit
 final class GoalsViewController: UIViewController, GoalsViewInput, ModuleTransitionable {
 
     // MARK: - Properties
-
+    @IBOutlet weak var tableView: UITableView!
+    
     var output: GoalsViewOutput!
 
     // MARK: - UIViewController
