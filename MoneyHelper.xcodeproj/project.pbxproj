@@ -46,6 +46,7 @@
 		501747541F6DEF16000B547A /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747471F6DE4F5000B547A /* ServerResponse.swift */; };
 		501747551F6DEF28000B547A /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474B1F6DEA19000B547A /* CardEntity.swift */; };
 		501747561F6DEF28000B547A /* MyCardsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747481F6DE7B0000B547A /* MyCardsListRequest.swift */; };
+		506641471F6E3AFF009C8960 /* CardsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -175,6 +176,7 @@
 		501747491F6DE841000B547A /* ServerPointURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPointURLs.swift; sourceTree = "<group>"; };
 		5017474B1F6DEA19000B547A /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		5017474C1F6DED9F000B547A /* MyCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardService.swift; sourceTree = "<group>"; };
+		506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListTableViewAdapter.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -1133,6 +1135,7 @@
 		FAE21DFFAC5C0FE552A5ED90 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */,
 				9BFC0D729A80848A0774025B /* BalanceViewController.swift */,
 				5374D5F303E691E77A860104 /* BalanceViewController.xib */,
 				58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */,
@@ -1518,6 +1521,7 @@
 				3EFD4C9C2A9FA0F4410CCB7D /* TabbarModuleInput.swift in Sources */,
 				B10F368014963DB9AD777AC5 /* TabbarViewController.swift in Sources */,
 				7B76828072FBA2BD9E405DFF /* TabbarViewInput.swift in Sources */,
+				506641471F6E3AFF009C8960 /* CardsListTableViewAdapter.swift in Sources */,
 				37A98D93E3BFD07408B5CE12 /* TabbarViewOutput.swift in Sources */,
 				1799189863417CC4F5640B6C /* BalanceModuleConfigurator.swift in Sources */,
 				EA7E4DA56B1702F72E7C000F /* BalanceRouter.swift in Sources */,

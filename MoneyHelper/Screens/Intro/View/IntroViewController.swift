@@ -19,15 +19,6 @@ final class IntroViewController: UIViewController, IntroViewInput, ModuleTransit
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
-
-        MyCardService.cardsRequest() { (result) in
-            if result.error != nil {
-                //MessageManager.shared.showMessage(L10n.networkConnectionError)
-            } else {
-                print( "Cards : \(result.value)")
-                //self.router.openAddressView()
-            }
-        }
     }
 
     // MARK: - IntroViewInput
