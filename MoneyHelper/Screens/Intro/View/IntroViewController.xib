@@ -33,15 +33,27 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBq-zD-Dio">
-                            <rect key="frame" x="110" y="498" width="100" height="40"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBq-zD-Dio" customClass="ActionButton" customModule="MoneyHelper" customModuleProvider="target">
+                            <rect key="frame" x="90" y="498" width="140" height="40"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="100" id="2mb-ki-cgj"/>
+                                <constraint firstAttribute="width" constant="140" id="2mb-ki-cgj"/>
                                 <constraint firstAttribute="height" constant="40" id="Iha-1l-18Y"/>
                             </constraints>
-                            <state key="normal" title="Вперед!">
-                                <color key="titleColor" red="0.0" green="0.82352941180000006" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </state>
+                            <state key="normal" title="Вперед!"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="normalTitleColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightedTitleColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="normalBackgroundColor">
+                                    <color key="value" red="0.0" green="0.82352941180000006" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightedBackgroundColor">
+                                    <color key="value" red="0.0" green="0.67450980392156867" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="moveForwardAction:" destination="-1" eventType="touchUpInside" id="leR-Md-n1g"/>
                             </connections>

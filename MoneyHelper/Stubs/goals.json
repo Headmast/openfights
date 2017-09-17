@@ -22,7 +22,56 @@
         "GoalType": "6",
         "GoalDate": "60",
         "GoalPrice": "600 000"
-      }
+     },
+     {
+         "GoalName": "Купить Логан",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "800 000"
+     },
+     {
+         "GoalName": "Купить БМВ",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "2600 000"
+     },
+     {
+         "GoalName": "Купить Мерседес",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "3600 000"
+     },
+     {
+         "GoalName": "Купить Порш",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "4600 000"
+     },
+     {
+         "GoalName": "Ремонт авто",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "200 000"
+     },
+     {
+         "GoalName": "Лечение",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "500 000"
+     },
+     {
+         "GoalName": "Рождение ребенка",
+         "GoalId": "10000",
+         "GoalType": "6",
+         "GoalDate": "60",
+         "GoalPrice": "1 000 000"
+     }
     ]
   }
 }

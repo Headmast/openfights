@@ -59,6 +59,9 @@
 		5066415E1F6E95C5009C8960 /* stub.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5066415A1F6E91EF009C8960 /* stub.txt */; };
 		506641601F6E9893009C8960 /* goals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415F1F6E988F009C8960 /* goals.json */; };
 		506641621F6E98C5009C8960 /* GoalsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */; };
+		506641661F6EA515009C8960 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641651F6EA4DB009C8960 /* ActionButton.swift */; };
+		506641671F6EA518009C8960 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641631F6EA4DB009C8960 /* Button.swift */; };
+		506641681F6EA51C009C8960 /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641641F6EA4DB009C8960 /* Designable.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -201,6 +204,9 @@
 		5066415B1F6E9250009C8960 /* depo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = depo.json; sourceTree = "<group>"; };
 		5066415F1F6E988F009C8960 /* goals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = goals.json; sourceTree = "<group>"; };
 		506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListTableViewAdapter.swift; sourceTree = "<group>"; };
+		506641631F6EA4DB009C8960 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		506641641F6EA4DB009C8960 /* Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		506641651F6EA4DB009C8960 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -703,6 +709,9 @@
 		50FD57C81F6D6ACB00C10542 /* Reusable Layer */ = {
 			isa = PBXGroup;
 			children = (
+				506641651F6EA4DB009C8960 /* ActionButton.swift */,
+				506641631F6EA4DB009C8960 /* Button.swift */,
+				506641641F6EA4DB009C8960 /* Designable.swift */,
 			);
 			path = "Reusable Layer";
 			sourceTree = "<group>";
@@ -1564,6 +1573,7 @@
 				5017473B1F6DD770000B547A /* UIKit.swift in Sources */,
 				0B08B4DC250A9C75E00E3E3F /* IntroModuleConfigurator.swift in Sources */,
 				C29C48CFB0247D30890910C5 /* IntroRouter.swift in Sources */,
+				506641671F6EA518009C8960 /* Button.swift in Sources */,
 				62C6D890893F73DAFEB8F889 /* IntroRouterInput.swift in Sources */,
 				37418113B84B887A802F494A /* IntroPresenter.swift in Sources */,
 				CE85ECA986380CDAE946E675 /* IntroModuleInput.swift in Sources */,
@@ -1610,8 +1620,10 @@
 				249AF0147430871693D14791 /* RecommendationsViewInput.swift in Sources */,
 				5066414E1F6E5E8C009C8960 /* RateEntity.swift in Sources */,
 				75FD64F64B20A6C4D6499DEE /* RecommendationsViewOutput.swift in Sources */,
+				506641661F6EA515009C8960 /* ActionButton.swift in Sources */,
 				7D1418A64D16ECA93B90E58D /* InfromationModuleConfigurator.swift in Sources */,
 				02DC3B7D5A524243E656CEFB /* InfromationRouter.swift in Sources */,
+				506641681F6EA51C009C8960 /* Designable.swift in Sources */,
 				1438A82F87FBF7DCF3D17DC2 /* InfromationRouterInput.swift in Sources */,
 				D5085A8205BD0560208CF78B /* InfromationPresenter.swift in Sources */,
 				1EAE841EB0F1C4318E1BF07A /* InfromationModuleInput.swift in Sources */,
