@@ -33,7 +33,6 @@
 		4D9E53E4D31055D2039EAE79 /* RecommendationsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EF0664846C2784BC0106E /* RecommendationsPresenterTests.swift */; };
 		500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */; };
 		501747381F6DD66E000B547A /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747361F6DD66E000B547A /* CardCell.swift */; };
-		501747391F6DD66E000B547A /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501747371F6DD66E000B547A /* CardCell.xib */; };
 		5017473B1F6DD770000B547A /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017473A1F6DD770000B547A /* UIKit.swift */; };
 		5017474A1F6DE902000B547A /* ServerPointURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747491F6DE841000B547A /* ServerPointURLs.swift */; };
 		5017474D1F6DED9F000B547A /* MyCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474C1F6DED9F000B547A /* MyCardService.swift */; };
@@ -56,6 +55,9 @@
 		506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
+		50D293DA1F6E7CCD004BF8F6 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D293D91F6E7CCD004BF8F6 /* CardCell.xib */; };
+		50D293DD1F6E7DB4004BF8F6 /* DepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D293DB1F6E7DB4004BF8F6 /* DepoCell.swift */; };
+		50D293DE1F6E7DB4004BF8F6 /* DepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D293DC1F6E7DB4004BF8F6 /* DepoCell.xib */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
 		50FD57F31F6D6BCE00C10542 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57ED1F6D6B9800C10542 /* Foundation.swift */; };
 		50FD57F61F6D6BCE00C10542 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57EF1F6D6B9900C10542 /* UIView.swift */; };
@@ -170,7 +172,6 @@
 		4FB1E5936B2625014FFC83FF /* BalanceRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BalanceRouter.swift; sourceTree = "<group>"; };
 		500C6CF11F6D8D7A00F18E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501747361F6DD66E000B547A /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		501747371F6DD66E000B547A /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		5017473A1F6DD770000B547A /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
 		5017473D1F6DE4F5000B547A /* BaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResult.swift; sourceTree = "<group>"; };
 		5017473E1F6DE4F5000B547A /* BaseServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServerRequest.swift; sourceTree = "<group>"; };
@@ -198,6 +199,9 @@
 		50D01B461F6D4CF70090CD06 /* MoneyHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperUITests.swift; sourceTree = "<group>"; };
 		50D01B4C1F6D4CF70090CD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D293D91F6E7CCD004BF8F6 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		50D293DB1F6E7DB4004BF8F6 /* DepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepoCell.swift; sourceTree = "<group>"; };
+		50D293DC1F6E7DB4004BF8F6 /* DepoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepoCell.xib; sourceTree = "<group>"; };
 		50FD57BE1F6D6ACB00C10542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FD57BF1F6D6ACB00C10542 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
@@ -1162,7 +1166,9 @@
 				58CF0567B2309718B9DA8FCE /* BalanceViewInput.swift */,
 				565BC5373B19AA8D8CE62560 /* BalanceViewOutput.swift */,
 				501747361F6DD66E000B547A /* CardCell.swift */,
-				501747371F6DD66E000B547A /* CardCell.xib */,
+				50D293D91F6E7CCD004BF8F6 /* CardCell.xib */,
+				50D293DB1F6E7DB4004BF8F6 /* DepoCell.swift */,
+				50D293DC1F6E7DB4004BF8F6 /* DepoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1288,9 +1294,10 @@
 				C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */,
 				10DB714340480620C15097E9 /* BalanceViewController.xib in Resources */,
 				54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */,
+				50D293DE1F6E7DB4004BF8F6 /* DepoCell.xib in Resources */,
 				7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */,
 				500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */,
-				501747391F6DD66E000B547A /* CardCell.xib in Resources */,
+				50D293DA1F6E7CCD004BF8F6 /* CardCell.xib in Resources */,
 				F5BFE23BB44C0B1BA7F35CD1 /* InfromationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1579,6 +1586,7 @@
 				7D1418A64D16ECA93B90E58D /* InfromationModuleConfigurator.swift in Sources */,
 				02DC3B7D5A524243E656CEFB /* InfromationRouter.swift in Sources */,
 				1438A82F87FBF7DCF3D17DC2 /* InfromationRouterInput.swift in Sources */,
+				50D293DD1F6E7DB4004BF8F6 /* DepoCell.swift in Sources */,
 				D5085A8205BD0560208CF78B /* InfromationPresenter.swift in Sources */,
 				1EAE841EB0F1C4318E1BF07A /* InfromationModuleInput.swift in Sources */,
 				7565D7580C223C0CD342F199 /* InfromationViewController.swift in Sources */,
@@ -1691,7 +1699,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1744,7 +1752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1763,6 +1771,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9639RHZFT;
 				INFOPLIST_FILE = "$(SRCROOT)/MoneyHelper/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1779,6 +1788,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B9639RHZFT;
 				INFOPLIST_FILE = "$(SRCROOT)/MoneyHelper/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.open.MoneyHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
