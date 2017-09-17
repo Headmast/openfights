@@ -9,4 +9,6 @@
 protocol GoalsViewInput: class {
     /// Method for setup initial state of view
     func setupInitialState()
+
+    func loadItems(_ cards: [GoalEntity])
 }

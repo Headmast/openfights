@@ -9,16 +9,16 @@
 
 import UIKit
 
-final class CardsListTableViewAdapter: NSObject {
+final class GoalsListTableViewAdapter: NSObject {
 
     // MARK: Константы
 
-    fileprivate let items: [CardEntity]
-    fileprivate let selectAction: (CardEntity) -> Void
+    fileprivate let items: [GoalEntity]
+    fileprivate let selectAction: (GoalEntity) -> Void
 
     // MARK: Инициализация и деинициализация
 
-    init(forTableView tableView: UITableView, items: [CardEntity], selectAction: @escaping (CardEntity) -> Void) {
+    init(forTableView tableView: UITableView, items: [GoalEntity], selectAction: @escaping (GoalEntity) -> Void) {
         self.items = items
         self.selectAction = selectAction
         tableView.registerNib(CardCell.self)
@@ -27,7 +27,7 @@ final class CardsListTableViewAdapter: NSObject {
 
 // MARK: UITableViewDataSource
 
-extension CardsListTableViewAdapter: UITableViewDataSource {
+extension GoalsListTableViewAdapter: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
@@ -35,7 +35,7 @@ extension CardsListTableViewAdapter: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue(CardCell.self, from: indexPath)
-        cell.fillCell(title: "\(items[indexPath.row].cardName ?? "")")
+        cell.fillCell(title: "\(items[indexPath.row].goalName ?? "")")
         return cell
     }
 
@@ -43,7 +43,7 @@ extension CardsListTableViewAdapter: UITableViewDataSource {
 
 // MARK: UITableViewDelegate
 
-extension CardsListTableViewAdapter: UITableViewDelegate {
+extension GoalsListTableViewAdapter: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)

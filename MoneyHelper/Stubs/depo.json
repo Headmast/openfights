@@ -1,0 +1,44 @@
+{
+  "RqUID": "123e4567-e89b-12d3-a456-426655440000",
+  "Deposits": {
+    "Deposit": [
+      {
+        "DepositName": "ДоходныйAAAAA",
+        "DepositMinSum": "10000",
+        "DepositMinTermRate": "6",
+        "DepositMaxTermRate": "60",
+        "Rates": [
+          {
+            "Rate": [
+              {
+                "DepositSum": "20000",
+                "DepositTermRate": "16"
+              },
+              {
+                "DepositSum": "15000",
+                "DepositTermRate": "15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DepositName": "ВыгодныйAAA",
+        "DepositMinSum": "100000",
+        "DepositMinTermRate": "12",
+        "DepositMaxTermRate": "120",
+        "DepositCapitalisation": "12",
+        "Rates": [
+          {
+            "Rate": [
+              {
+                "DepositSum": "100000",
+                "DepositTermRate": "15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

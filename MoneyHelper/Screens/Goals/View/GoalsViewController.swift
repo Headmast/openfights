@@ -12,7 +12,8 @@ final class GoalsViewController: UIViewController, GoalsViewInput, ModuleTransit
 
     // MARK: - Properties
     @IBOutlet weak var tableView: UITableView!
-
+    private var adapter: GoalsListTableViewAdapter?
+    
     var output: GoalsViewOutput!
 
     // MARK: - UIViewController
@@ -29,4 +30,17 @@ final class GoalsViewController: UIViewController, GoalsViewInput, ModuleTransit
 
     }
 
+    func loadItems(_ goals: [GoalEntity]) {
+        let adapter = GoalsListTableViewAdapter(
+            forTableView: tableView,
+            items: goals,
+            selectAction: { [weak self] card in
+                //self?.presenter?.selectRegion(region: region)
+            }
+        )
+        self.adapter = adapter
+        tableView.delegate = adapter
+        tableView.dataSource = adapter
+        tableView.reloadData()
+    }
 }
