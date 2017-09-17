@@ -87,15 +87,6 @@ class ServerRequest: NSObject {
         case .simpleParams(let params):
             let request = self.createSingleParamRequest(params)
             requests.forEach({ $0(request) })
-        case .multipartParams(let params):
-            self.createMultipartParamRequest(params, with: { result in
-                switch result {
-                case .succes(let request):
-                    requests.forEach({ $0(request) })
-                case .failure(let resp):
-                    completion(resp)
-                }
-            })
         }
     }
 
@@ -196,26 +187,6 @@ extension ServerRequest {
         )
 
         return request
-    }
-
-    func createMultipartParamRequest(_ params: [MultipartData], with completion: @escaping (MultipartRequestCompletion) -> Void) {
-
-        let headers = self.createHeaders()
-        let manager = ServerRequestsManager.shared.manager
-
-        manager.upload(multipartFormData: { (multipartFormData) in
-            for data in params {
-                multipartFormData.append(data.data, withName: data.name, fileName: data.fileName, mimeType: data.fileName)
-            }
-        }, to: self.url, method: self.method.alamofire, headers: headers, encodingCompletion: { (encodingResult) in
-            switch encodingResult {
-            case let .success(request: uploadRequest, streamingFromDisk: _, streamFileURL: _):
-                completion(.succes(uploadRequest))
-            case let .failure(error):
-                let response = ServerResponse(dataResponse: nil, dataResult: .failure(error))
-                completion(.failure(response))
-            }
-        })
     }
 
     func createDataRequest() {

@@ -11,7 +11,6 @@ import Alamofire
 
 public enum ServerRequestParameter {
     case simpleParams([String: Any]?)
-    case multipartParams([MultipartData])
 }
 
 /// Кастомный результат ответа сервера

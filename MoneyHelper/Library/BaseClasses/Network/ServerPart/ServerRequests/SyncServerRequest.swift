@@ -71,20 +71,6 @@ class SyncServerRequest: ServerRequest {
                 headers: headers
             )
             performRequest(request)
-        case .multipartParams(let params):
-            manager.upload(multipartFormData: { (multipartFormData) in
-                for data in params {
-                    multipartFormData.append(data.data, withName: data.name, fileName: data.fileName, mimeType: data.fileName)
-                }
-            }, to: super.url, method: super.method.alamofire, headers: headers, encodingCompletion: { (encodingResult) in
-                switch encodingResult {
-                case let .success(request: uploadRequest, streamingFromDisk: _, streamFileURL: _):
-                    performRequest(uploadRequest)
-                case let .failure(error):
-                    response = ServerResponse(dataResponse: nil, dataResult: .failure(error))
-                }
-                semph.signal()
-            })
         }
 
         _ = semph.wait(timeout: DispatchTime.distantFuture)
