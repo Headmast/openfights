@@ -20,6 +20,7 @@ final class GoalsViewController: UIViewController, GoalsViewInput, ModuleTransit
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
+        tableView.tableFooterView = UIView()
     }
 
     // MARK: - GoalsViewInput

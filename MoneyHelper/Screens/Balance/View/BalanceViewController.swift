@@ -20,6 +20,7 @@ final class BalanceViewController: UIViewController, BalanceViewInput, ModuleTra
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
+        tableView.tableFooterView = UIView()
     }
 
     // MARK: - BalanceViewInput
