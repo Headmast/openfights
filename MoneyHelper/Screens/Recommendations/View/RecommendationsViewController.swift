@@ -21,6 +21,7 @@ final class RecommendationsViewController: UIViewController, RecommendationsView
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
+        tableView.tableFooterView = UIView()
     }
 
     // MARK: - RecommendationsViewInput
@@ -42,5 +43,4 @@ final class RecommendationsViewController: UIViewController, RecommendationsView
         tableView.dataSource = adapter
         tableView.reloadData()
     }
-
 }
