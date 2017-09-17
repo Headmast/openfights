@@ -19,6 +19,9 @@ final class InfromationViewController: UIViewController, InfromationViewInput, M
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
+        // нет вермени писать локализацию.
+        self.title = "Информация"
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor(red: 1.0, green: 124.0 / 255.0, blue: 0.0, alpha: 1.0)]
     }
 
     // MARK: - InfromationViewInput

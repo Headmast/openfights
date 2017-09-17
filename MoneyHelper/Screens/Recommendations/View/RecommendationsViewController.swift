@@ -22,6 +22,9 @@ final class RecommendationsViewController: UIViewController, RecommendationsView
         super.viewDidLoad()
         output.viewLoaded()
         tableView.tableFooterView = UIView()
+        // нет вермени писать локализацию.
+        self.title = "Лучшее вклады"
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor(red: 1.0, green: 124.0 / 255.0, blue: 0.0, alpha: 1.0)]
     }
 
     // MARK: - RecommendationsViewInput
