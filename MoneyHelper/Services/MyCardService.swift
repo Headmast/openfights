@@ -8,28 +8,45 @@
 
 import Foundation
 
-/// Collections of services for authorazation
 public class MyCardService {
 
-    public typealias GetOrderListCompletion = (BaseResult<[CardEntity]>) -> Void
-    
-    public struct AuthModel {
-        public let accessToken: String
-        public let refreshToken: String
+    public typealias GetCardListCompletion = (BaseResult<[CardEntity]>) -> Void
+    public typealias GetDepositListCompletion = (BaseResult<[DepositEntity]>) -> Void
+    public typealias GetGoalListCompletion = (BaseResult<[GoalEntity]>) -> Void
 
-        public init(accessToken: String, refershToken: String) {
-            self.accessToken = accessToken
-            self.refreshToken = refershToken
+    /// Get current user myCard
+
+    public static func cardsRequest(completion: @escaping GetCardListCompletion) {
+        let request = CardsRequest()
+        request.performAsync { result in
+            switch result {
+            case .failure(let error):
+                completion(.error(error))
+                break
+            case .success(let value, let flag):
+                completion(.value(value, flag))
+                break
+            }
         }
     }
 
-    /// Send user phone and get back key for next authorization step
-    ///
-    /// - Parameters:
-    ///   - phone: User phone
-    public static func cardsRequest(completion: @escaping GetOrderListCompletion) {
-        let request = CardsRequest()
-        request.performAsync{ result in
+    public static func depositsRequest(completion: @escaping GetDepositListCompletion) {
+        let request = DepositsRequest()
+        request.performAsync { result in
+            switch result {
+            case .failure(let error):
+                completion(.error(error))
+                break
+            case .success(let value, let flag):
+                completion(.value(value, flag))
+                break
+            }
+        }
+    }
+
+    public static func goalsRequest(completion: @escaping GetGoalListCompletion) {
+        let request = GoalsRequest()
+        request.performAsync { result in
             switch result {
             case .failure(let error):
                 completion(.error(error))

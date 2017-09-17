@@ -9,18 +9,18 @@
 import Foundation
 import ObjectMapper
 
-public class CardsRequest: BaseServerRequest<[CardEntity]> {
+public class DepositsRequest: BaseServerRequest<[DepositEntity]> {
 
     override func createAsyncServerRequest() -> ServerRequest {
         let params = ServerRequestParameter.simpleParams(["test": "test"])
-        let request = ServerRequest(method: .get, relativeUrl: ServerPointURLs.cardsList, baseUrl: ServerPointURLs.baseUrl, parameters: params)
+        let request = ServerRequest(method: .get, relativeUrl: ServerPointURLs.depositsList, baseUrl: ServerPointURLs.baseUrl, parameters: params)
         request.cachePolicy = .serverOnly
 
         return request
     }
 
-    override func handle(serverResponse: ServerResponse, completion: (ResponseResult<[CardEntity]>) -> Void) {
-        let result = {() -> ResponseResult<[CardEntity]> in
+    override func handle(serverResponse: ServerResponse, completion: (ResponseResult<[DepositEntity]>) -> Void) {
+        let result = {() -> ResponseResult<[DepositEntity]> in
              switch serverResponse.result {
              case .failure(let error):
                 return .failure(error)
@@ -37,7 +37,7 @@ public class CardsRequest: BaseServerRequest<[CardEntity]> {
                     return .failure(BaseServerError.cantMapping)
                 }
 
-                guard let mapped = Mapper<CardEntity>().mapArray(JSONObject: card) else {
+                guard let mapped = Mapper<DepositEntity>().mapArray(JSONObject: card) else {
                     return .failure(BaseServerError.cantMapping)
                 }
                 return .success(mapped, flag)

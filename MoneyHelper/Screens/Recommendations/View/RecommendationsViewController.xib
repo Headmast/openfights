@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecommendationsViewController" customModule="MoneyHelper" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="DNq-wP-wZr" id="9oh-Vf-4nR"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Q3p-Ee-1CD"/>
             </connections>
         </placeholder>

@@ -47,10 +47,13 @@
 		501747551F6DEF28000B547A /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474B1F6DEA19000B547A /* CardEntity.swift */; };
 		501747561F6DEF28000B547A /* MyCardsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747481F6DE7B0000B547A /* MyCardsListRequest.swift */; };
 		506641471F6E3AFF009C8960 /* CardsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */; };
-		5066414A1F6E4FC0009C8960 /* DepositeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641481F6E4FC0009C8960 /* DepositeEntity.swift */; };
+		5066414A1F6E4FC0009C8960 /* DepositEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641481F6E4FC0009C8960 /* DepositEntity.swift */; };
 		5066414B1F6E4FC0009C8960 /* GoalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641491F6E4FC0009C8960 /* GoalEntity.swift */; };
 		5066414E1F6E5E8C009C8960 /* RateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066414C1F6E5E8A009C8960 /* RateEntity.swift */; };
 		5066414F1F6E5E8C009C8960 /* CreditEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066414D1F6E5E8B009C8960 /* CreditEntity.swift */; };
+		506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641511F6E65E5009C8960 /* GoalsListRequest.swift */; };
+		506641551F6E70D0009C8960 /* DepositsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641541F6E70CF009C8960 /* DepositsListRequest.swift */; };
+		506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -181,10 +184,13 @@
 		5017474B1F6DEA19000B547A /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		5017474C1F6DED9F000B547A /* MyCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardService.swift; sourceTree = "<group>"; };
 		506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListTableViewAdapter.swift; sourceTree = "<group>"; };
-		506641481F6E4FC0009C8960 /* DepositeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeEntity.swift; sourceTree = "<group>"; };
+		506641481F6E4FC0009C8960 /* DepositEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositEntity.swift; sourceTree = "<group>"; };
 		506641491F6E4FC0009C8960 /* GoalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalEntity.swift; sourceTree = "<group>"; };
 		5066414C1F6E5E8A009C8960 /* RateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateEntity.swift; sourceTree = "<group>"; };
 		5066414D1F6E5E8B009C8960 /* CreditEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditEntity.swift; sourceTree = "<group>"; };
+		506641511F6E65E5009C8960 /* GoalsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListRequest.swift; sourceTree = "<group>"; };
+		506641541F6E70CF009C8960 /* DepositsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DepositsListRequest.swift; path = ../../../../Deposite/DepositsListRequest.swift; sourceTree = "<group>"; };
+		506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositsListTableViewAdapter.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -619,7 +625,7 @@
 			children = (
 				5066414D1F6E5E8B009C8960 /* CreditEntity.swift */,
 				5066414C1F6E5E8A009C8960 /* RateEntity.swift */,
-				506641481F6E4FC0009C8960 /* DepositeEntity.swift */,
+				506641481F6E4FC0009C8960 /* DepositEntity.swift */,
 				506641491F6E4FC0009C8960 /* GoalEntity.swift */,
 				5017474B1F6DEA19000B547A /* CardEntity.swift */,
 			);
@@ -761,6 +767,8 @@
 		50FD57E11F6D6ACC00C10542 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				506641541F6E70CF009C8960 /* DepositsListRequest.swift */,
+				506641511F6E65E5009C8960 /* GoalsListRequest.swift */,
 				501747491F6DE841000B547A /* ServerPointURLs.swift */,
 				5017474C1F6DED9F000B547A /* MyCardService.swift */,
 				501747481F6DE7B0000B547A /* MyCardsListRequest.swift */,
@@ -1041,6 +1049,7 @@
 		D2B4998095F5435FDA9ED51C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */,
 				A1395DB4BE358FA5BB8E75CF /* RecommendationsViewController.swift */,
 				88AFF6D33CF7C7EAEE41D7ED /* RecommendationsViewController.xib */,
 				864595762CBF7DD2223AF747 /* RecommendationsViewInput.swift */,
@@ -1540,10 +1549,12 @@
 				1799189863417CC4F5640B6C /* BalanceModuleConfigurator.swift in Sources */,
 				EA7E4DA56B1702F72E7C000F /* BalanceRouter.swift in Sources */,
 				FB71D02B94C932DF19A74F12 /* BalanceRouterInput.swift in Sources */,
-				5066414A1F6E4FC0009C8960 /* DepositeEntity.swift in Sources */,
+				5066414A1F6E4FC0009C8960 /* DepositEntity.swift in Sources */,
 				74025428146E839C726085F7 /* BalancePresenter.swift in Sources */,
 				88BF3A59F41E33603C405FFF /* BalanceModuleInput.swift in Sources */,
+				506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */,
 				9BDEB0B9B2E96421EDE29A8F /* BalanceViewController.swift in Sources */,
+				506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */,
 				9B5DC124647F89CDCD65E36B /* BalanceViewInput.swift in Sources */,
 				598D3437FD8CF375ED863FD0 /* BalanceViewOutput.swift in Sources */,
 				467149E0D44AC08B59945F6E /* GoalsModuleConfigurator.swift in Sources */,
@@ -1559,6 +1570,7 @@
 				3F87CA406CDE9820ED383E23 /* RecommendationsRouter.swift in Sources */,
 				65CBDEA743D1B61670C5F789 /* RecommendationsRouterInput.swift in Sources */,
 				BFFF8A546468FA87CA1434B4 /* RecommendationsPresenter.swift in Sources */,
+				506641551F6E70D0009C8960 /* DepositsListRequest.swift in Sources */,
 				3F5829365BBD92FB9550AB49 /* RecommendationsModuleInput.swift in Sources */,
 				9733021D09CCF7E719DBC972 /* RecommendationsViewController.swift in Sources */,
 				249AF0147430871693D14791 /* RecommendationsViewInput.swift in Sources */,

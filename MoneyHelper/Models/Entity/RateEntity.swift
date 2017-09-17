@@ -20,8 +20,6 @@ public class RateEntity: Mappable {
 //    "minLimit": "10",
 //    "department": "018"
 
-
-
     private struct Keys {
         public static let startDate = "startDate"
         public static let operationType = "operationType"
