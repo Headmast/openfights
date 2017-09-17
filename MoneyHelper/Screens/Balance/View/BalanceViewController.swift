@@ -20,6 +20,7 @@ final class BalanceViewController: UIViewController, BalanceViewInput, ModuleTra
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewLoaded()
+        tableView.tableFooterView = UIView()
     }
 
     // MARK: - BalanceViewInput
@@ -28,7 +29,7 @@ final class BalanceViewController: UIViewController, BalanceViewInput, ModuleTra
 
     }
 
-    func loadCards(_ cards: [CardEntity]) {
+    func loadItems(_ cards: [CardEntity]) {
         let adapter = CardsListTableViewAdapter(
             forTableView: tableView,
             items: cards,

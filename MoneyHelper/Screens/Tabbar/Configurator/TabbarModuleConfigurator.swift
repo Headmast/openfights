@@ -39,7 +39,7 @@ final class TabbarModuleConfigurator {
         let navVC4 = UINavigationController(rootViewController: profileVc)
         navVC4.tabBarItem = UITabBarItem(
             title: "Информация",
-            image: UIImage(named: "icInfromation"),
+            image: UIImage(named: "icInformation"),
             tag: 4)
 
         let view = TabbarViewController()
@@ -52,7 +52,7 @@ final class TabbarModuleConfigurator {
         view.output = presenter
 
         //view.tabBar.barTintColor = UIColor(named: .TabBarColor)
-        view.tabBar.tintColor = UIColor.black
+        view.tabBar.tintColor = UIColor(red: 1.0, green: 124.0 / 255.0, blue: 0.0, alpha: 1.0)
         view.viewControllers = [navVC, navVC2, navVC3, navVC4]
 
         return view

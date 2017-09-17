@@ -11,21 +11,9 @@ import ObjectMapper
 
 public class CardsRequest: BaseServerRequest<[CardEntity]> {
 
-    public enum Error: LocalizedError {
-        case userBlocked
-    }
-
-    private struct Keys {
-        // For requst
-        public static let phone = "phone"
-
-        // For response
-        public static let key = "key"
-    }
-
     override func createAsyncServerRequest() -> ServerRequest {
         let params = ServerRequestParameter.simpleParams(["test": "test"])
-        let request = ServerRequest(method: .get, relativeUrl: ServerPointURLs.cardList, baseUrl: ServerPointURLs.baseUrl, parameters: params)
+        let request = ServerRequest(method: .get, relativeUrl: ServerPointURLs.cardsList, baseUrl: ServerPointURLs.baseUrl, parameters: params)
         request.cachePolicy = .serverOnly
 
         return request
@@ -35,11 +23,7 @@ public class CardsRequest: BaseServerRequest<[CardEntity]> {
         let result = {() -> ResponseResult<[CardEntity]> in
              switch serverResponse.result {
              case .failure(let error):
-                guard let convertedError = error as? ServerError, convertedError.id == "userBlocked"else {
-                    return .failure(error)
-                }
-
-                return .failure(Error.userBlocked)
+                return .failure(error)
              case .success(let value, let flag):
                 guard let json = value as? NSDictionary else {
                     return .failure(BaseServerError.cantMapping)

@@ -47,10 +47,18 @@
 		501747551F6DEF28000B547A /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474B1F6DEA19000B547A /* CardEntity.swift */; };
 		501747561F6DEF28000B547A /* MyCardsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747481F6DE7B0000B547A /* MyCardsListRequest.swift */; };
 		506641471F6E3AFF009C8960 /* CardsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */; };
-		5066414A1F6E4FC0009C8960 /* DepositeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641481F6E4FC0009C8960 /* DepositeEntity.swift */; };
+		5066414A1F6E4FC0009C8960 /* DepositEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641481F6E4FC0009C8960 /* DepositEntity.swift */; };
 		5066414B1F6E4FC0009C8960 /* GoalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641491F6E4FC0009C8960 /* GoalEntity.swift */; };
 		5066414E1F6E5E8C009C8960 /* RateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066414C1F6E5E8A009C8960 /* RateEntity.swift */; };
 		5066414F1F6E5E8C009C8960 /* CreditEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066414D1F6E5E8B009C8960 /* CreditEntity.swift */; };
+		506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641511F6E65E5009C8960 /* GoalsListRequest.swift */; };
+		506641551F6E70D0009C8960 /* DepositsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641541F6E70CF009C8960 /* DepositsListRequest.swift */; };
+		506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */; };
+		5066415C1F6E95BF009C8960 /* depo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415B1F6E9250009C8960 /* depo.json */; };
+		5066415D1F6E95C3009C8960 /* stub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506641591F6E91EF009C8960 /* stub.jpg */; };
+		5066415E1F6E95C5009C8960 /* stub.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5066415A1F6E91EF009C8960 /* stub.txt */; };
+		506641601F6E9893009C8960 /* goals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5066415F1F6E988F009C8960 /* goals.json */; };
+		506641621F6E98C5009C8960 /* GoalsListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -181,10 +189,18 @@
 		5017474B1F6DEA19000B547A /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		5017474C1F6DED9F000B547A /* MyCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardService.swift; sourceTree = "<group>"; };
 		506641461F6E3AFF009C8960 /* CardsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListTableViewAdapter.swift; sourceTree = "<group>"; };
-		506641481F6E4FC0009C8960 /* DepositeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeEntity.swift; sourceTree = "<group>"; };
+		506641481F6E4FC0009C8960 /* DepositEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositEntity.swift; sourceTree = "<group>"; };
 		506641491F6E4FC0009C8960 /* GoalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalEntity.swift; sourceTree = "<group>"; };
 		5066414C1F6E5E8A009C8960 /* RateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateEntity.swift; sourceTree = "<group>"; };
 		5066414D1F6E5E8B009C8960 /* CreditEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditEntity.swift; sourceTree = "<group>"; };
+		506641511F6E65E5009C8960 /* GoalsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListRequest.swift; sourceTree = "<group>"; };
+		506641541F6E70CF009C8960 /* DepositsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DepositsListRequest.swift; path = ../../../../Deposite/DepositsListRequest.swift; sourceTree = "<group>"; };
+		506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositsListTableViewAdapter.swift; sourceTree = "<group>"; };
+		506641591F6E91EF009C8960 /* stub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stub.jpg; sourceTree = "<group>"; };
+		5066415A1F6E91EF009C8960 /* stub.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = stub.txt; sourceTree = "<group>"; };
+		5066415B1F6E9250009C8960 /* depo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = depo.json; sourceTree = "<group>"; };
+		5066415F1F6E988F009C8960 /* goals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = goals.json; sourceTree = "<group>"; };
+		506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsListTableViewAdapter.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -532,6 +548,17 @@
 			path = ServerRequests;
 			sourceTree = "<group>";
 		};
+		506641581F6E91EF009C8960 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				5066415F1F6E988F009C8960 /* goals.json */,
+				5066415B1F6E9250009C8960 /* depo.json */,
+				506641591F6E91EF009C8960 /* stub.jpg */,
+				5066415A1F6E91EF009C8960 /* stub.txt */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		509C5E6F8FE0A4A67D9A3F86 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +592,7 @@
 		50D01B181F6D4CF70090CD06 /* MoneyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				506641581F6E91EF009C8960 /* Stubs */,
 				50FD57BD1F6D6ACB00C10542 /* Application */,
 				50FD57C31F6D6ACB00C10542 /* Library */,
 				50FD57C01F6D6ACB00C10542 /* Models */,
@@ -619,7 +647,7 @@
 			children = (
 				5066414D1F6E5E8B009C8960 /* CreditEntity.swift */,
 				5066414C1F6E5E8A009C8960 /* RateEntity.swift */,
-				506641481F6E4FC0009C8960 /* DepositeEntity.swift */,
+				506641481F6E4FC0009C8960 /* DepositEntity.swift */,
 				506641491F6E4FC0009C8960 /* GoalEntity.swift */,
 				5017474B1F6DEA19000B547A /* CardEntity.swift */,
 			);
@@ -761,6 +789,8 @@
 		50FD57E11F6D6ACC00C10542 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				506641541F6E70CF009C8960 /* DepositsListRequest.swift */,
+				506641511F6E65E5009C8960 /* GoalsListRequest.swift */,
 				501747491F6DE841000B547A /* ServerPointURLs.swift */,
 				5017474C1F6DED9F000B547A /* MyCardService.swift */,
 				501747481F6DE7B0000B547A /* MyCardsListRequest.swift */,
@@ -1041,6 +1071,7 @@
 		D2B4998095F5435FDA9ED51C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				506641561F6E7265009C8960 /* DepositsListTableViewAdapter.swift */,
 				A1395DB4BE358FA5BB8E75CF /* RecommendationsViewController.swift */,
 				88AFF6D33CF7C7EAEE41D7ED /* RecommendationsViewController.xib */,
 				864595762CBF7DD2223AF747 /* RecommendationsViewInput.swift */,
@@ -1110,6 +1141,7 @@
 		EFD048003F93691D3BB62A0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				506641611F6E98C5009C8960 /* GoalsListTableViewAdapter.swift */,
 				C2CBE9E61CADA1025E308065 /* GoalsViewController.swift */,
 				48299AA73E346A42EF08BF25 /* GoalsViewController.xib */,
 				84846585E4B84EB049CA55A6 /* GoalsViewInput.swift */,
@@ -1274,11 +1306,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506641601F6E9893009C8960 /* goals.json in Resources */,
 				50FD57FB1F6D71E500C10542 /* LaunchScreen.xib in Resources */,
 				289F3989831DB7EC4D8F46B5 /* IntroViewController.xib in Resources */,
 				C22931C39FC5AB5D5BA3AFE2 /* TabbarViewController.xib in Resources */,
+				5066415C1F6E95BF009C8960 /* depo.json in Resources */,
+				5066415E1F6E95C5009C8960 /* stub.txt in Resources */,
 				10DB714340480620C15097E9 /* BalanceViewController.xib in Resources */,
 				54EC01DDC49EC3D8246848FC /* GoalsViewController.xib in Resources */,
+				5066415D1F6E95C3009C8960 /* stub.jpg in Resources */,
 				7315A1FD6A486D67892B0424 /* RecommendationsViewController.xib in Resources */,
 				500C6CF21F6D8D7B00F18E05 /* Assets.xcassets in Resources */,
 				501747391F6DD66E000B547A /* CardCell.xib in Resources */,
@@ -1375,6 +1411,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1383,6 +1420,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
@@ -1401,6 +1439,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1409,6 +1448,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
@@ -1463,6 +1503,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
@@ -1471,6 +1512,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
@@ -1540,10 +1582,13 @@
 				1799189863417CC4F5640B6C /* BalanceModuleConfigurator.swift in Sources */,
 				EA7E4DA56B1702F72E7C000F /* BalanceRouter.swift in Sources */,
 				FB71D02B94C932DF19A74F12 /* BalanceRouterInput.swift in Sources */,
-				5066414A1F6E4FC0009C8960 /* DepositeEntity.swift in Sources */,
+				5066414A1F6E4FC0009C8960 /* DepositEntity.swift in Sources */,
 				74025428146E839C726085F7 /* BalancePresenter.swift in Sources */,
 				88BF3A59F41E33603C405FFF /* BalanceModuleInput.swift in Sources */,
+				506641571F6E7265009C8960 /* DepositsListTableViewAdapter.swift in Sources */,
+				506641621F6E98C5009C8960 /* GoalsListTableViewAdapter.swift in Sources */,
 				9BDEB0B9B2E96421EDE29A8F /* BalanceViewController.swift in Sources */,
+				506641531F6E65E6009C8960 /* GoalsListRequest.swift in Sources */,
 				9B5DC124647F89CDCD65E36B /* BalanceViewInput.swift in Sources */,
 				598D3437FD8CF375ED863FD0 /* BalanceViewOutput.swift in Sources */,
 				467149E0D44AC08B59945F6E /* GoalsModuleConfigurator.swift in Sources */,
@@ -1559,6 +1604,7 @@
 				3F87CA406CDE9820ED383E23 /* RecommendationsRouter.swift in Sources */,
 				65CBDEA743D1B61670C5F789 /* RecommendationsRouterInput.swift in Sources */,
 				BFFF8A546468FA87CA1434B4 /* RecommendationsPresenter.swift in Sources */,
+				506641551F6E70D0009C8960 /* DepositsListRequest.swift in Sources */,
 				3F5829365BBD92FB9550AB49 /* RecommendationsModuleInput.swift in Sources */,
 				9733021D09CCF7E719DBC972 /* RecommendationsViewController.swift in Sources */,
 				249AF0147430871693D14791 /* RecommendationsViewInput.swift in Sources */,
