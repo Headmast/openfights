@@ -13,7 +13,7 @@ final class RecommendationsViewController: UIViewController, RecommendationsView
     // MARK: - Properties
     @IBOutlet weak var tableView: UITableView!
     private var adapter: DepositsListTableViewAdapter?
-    
+
     var output: RecommendationsViewOutput!
 
     // MARK: - UIViewController

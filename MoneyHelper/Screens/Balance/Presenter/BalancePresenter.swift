@@ -22,7 +22,6 @@ final class BalancePresenter: BalanceViewOutput, BalanceModuleInput {
             if result.error != nil {
                 //MessageManager.shared.showMessage(L10n.networkConnectionError)
             } else {
-                print( "Cards : \(result.value)")
                 if let value = result.value?.value {
                     self?.view.loadItems(value)
                 }
