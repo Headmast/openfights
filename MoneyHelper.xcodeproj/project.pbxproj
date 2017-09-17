@@ -35,6 +35,17 @@
 		501747381F6DD66E000B547A /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747361F6DD66E000B547A /* CardCell.swift */; };
 		501747391F6DD66E000B547A /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501747371F6DD66E000B547A /* CardCell.xib */; };
 		5017473B1F6DD770000B547A /* UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017473A1F6DD770000B547A /* UIKit.swift */; };
+		5017474A1F6DE902000B547A /* ServerPointURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747491F6DE841000B547A /* ServerPointURLs.swift */; };
+		5017474D1F6DED9F000B547A /* MyCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474C1F6DED9F000B547A /* MyCardService.swift */; };
+		5017474E1F6DEF16000B547A /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017473D1F6DE4F5000B547A /* BaseResult.swift */; };
+		5017474F1F6DEF16000B547A /* BaseServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017473E1F6DE4F5000B547A /* BaseServerRequest.swift */; };
+		501747501F6DEF16000B547A /* NetworkLayerBaseErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747401F6DE4F5000B547A /* NetworkLayerBaseErrors.swift */; };
+		501747511F6DEF16000B547A /* ServerRequest+SupportedClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747441F6DE4F5000B547A /* ServerRequest+SupportedClasses.swift */; };
+		501747521F6DEF16000B547A /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747451F6DE4F5000B547A /* ServerRequest.swift */; };
+		501747531F6DEF16000B547A /* SyncServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747461F6DE4F5000B547A /* SyncServerRequest.swift */; };
+		501747541F6DEF16000B547A /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747471F6DE4F5000B547A /* ServerResponse.swift */; };
+		501747551F6DEF28000B547A /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017474B1F6DEA19000B547A /* CardEntity.swift */; };
+		501747561F6DEF28000B547A /* MyCardsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501747481F6DE7B0000B547A /* MyCardsListRequest.swift */; };
 		50D01B3E1F6D4CF70090CD06 /* MoneyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */; };
 		50D01B4B1F6D4CF70090CD06 /* MoneyHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D01B4A1F6D4CF70090CD06 /* MoneyHelperUITests.swift */; };
 		50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD57C71F6D6ACB00C10542 /* ModuleTransitionable.swift */; };
@@ -153,6 +164,17 @@
 		501747361F6DD66E000B547A /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		501747371F6DD66E000B547A /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
 		5017473A1F6DD770000B547A /* UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit.swift; sourceTree = "<group>"; };
+		5017473D1F6DE4F5000B547A /* BaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResult.swift; sourceTree = "<group>"; };
+		5017473E1F6DE4F5000B547A /* BaseServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServerRequest.swift; sourceTree = "<group>"; };
+		501747401F6DE4F5000B547A /* NetworkLayerBaseErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerBaseErrors.swift; sourceTree = "<group>"; };
+		501747441F6DE4F5000B547A /* ServerRequest+SupportedClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerRequest+SupportedClasses.swift"; sourceTree = "<group>"; };
+		501747451F6DE4F5000B547A /* ServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRequest.swift; sourceTree = "<group>"; };
+		501747461F6DE4F5000B547A /* SyncServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncServerRequest.swift; sourceTree = "<group>"; };
+		501747471F6DE4F5000B547A /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		501747481F6DE7B0000B547A /* MyCardsListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsListRequest.swift; sourceTree = "<group>"; };
+		501747491F6DE841000B547A /* ServerPointURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPointURLs.swift; sourceTree = "<group>"; };
+		5017474B1F6DEA19000B547A /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
+		5017474C1F6DED9F000B547A /* MyCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardService.swift; sourceTree = "<group>"; };
 		50D01B161F6D4CF70090CD06 /* MoneyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B391F6D4CF70090CD06 /* MoneyHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D01B3D1F6D4CF70090CD06 /* MoneyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHelperTests.swift; sourceTree = "<group>"; };
@@ -470,6 +492,36 @@
 			path = Configurator;
 			sourceTree = "<group>";
 		};
+		5017473C1F6DE4F5000B547A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5017473D1F6DE4F5000B547A /* BaseResult.swift */,
+				5017473E1F6DE4F5000B547A /* BaseServerRequest.swift */,
+				501747401F6DE4F5000B547A /* NetworkLayerBaseErrors.swift */,
+				501747411F6DE4F5000B547A /* ServerPart */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		501747411F6DE4F5000B547A /* ServerPart */ = {
+			isa = PBXGroup;
+			children = (
+				501747431F6DE4F5000B547A /* ServerRequests */,
+				501747471F6DE4F5000B547A /* ServerResponse.swift */,
+			);
+			path = ServerPart;
+			sourceTree = "<group>";
+		};
+		501747431F6DE4F5000B547A /* ServerRequests */ = {
+			isa = PBXGroup;
+			children = (
+				501747441F6DE4F5000B547A /* ServerRequest+SupportedClasses.swift */,
+				501747451F6DE4F5000B547A /* ServerRequest.swift */,
+				501747461F6DE4F5000B547A /* SyncServerRequest.swift */,
+			);
+			path = ServerRequests;
+			sourceTree = "<group>";
+		};
 		509C5E6F8FE0A4A67D9A3F86 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +607,7 @@
 		50FD57C11F6D6ACB00C10542 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				5017474B1F6DEA19000B547A /* CardEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -581,6 +634,7 @@
 		50FD57C41F6D6ACB00C10542 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				5017473C1F6DE4F5000B547A /* Network */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -693,6 +747,9 @@
 		50FD57E11F6D6ACC00C10542 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				501747491F6DE841000B547A /* ServerPointURLs.swift */,
+				5017474C1F6DED9F000B547A /* MyCardService.swift */,
+				501747481F6DE7B0000B547A /* MyCardsListRequest.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -1303,6 +1360,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1310,6 +1368,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1327,6 +1386,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1334,6 +1394,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1387,6 +1448,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1394,6 +1456,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1423,11 +1486,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501747551F6DEF28000B547A /* CardEntity.swift in Sources */,
+				501747561F6DEF28000B547A /* MyCardsListRequest.swift in Sources */,
+				5017474E1F6DEF16000B547A /* BaseResult.swift in Sources */,
+				5017474F1F6DEF16000B547A /* BaseServerRequest.swift in Sources */,
+				501747501F6DEF16000B547A /* NetworkLayerBaseErrors.swift in Sources */,
+				501747511F6DEF16000B547A /* ServerRequest+SupportedClasses.swift in Sources */,
+				501747521F6DEF16000B547A /* ServerRequest.swift in Sources */,
+				501747531F6DEF16000B547A /* SyncServerRequest.swift in Sources */,
+				501747541F6DEF16000B547A /* ServerResponse.swift in Sources */,
+				5017474A1F6DE902000B547A /* ServerPointURLs.swift in Sources */,
 				50FD57FA1F6D71D600C10542 /* AppDelegate.swift in Sources */,
 				50FD57F31F6D6BCE00C10542 /* Foundation.swift in Sources */,
 				50FD57F61F6D6BCE00C10542 /* UIView.swift in Sources */,
 				50FD57F71F6D6BCE00C10542 /* UIViewController.swift in Sources */,
 				50FD57F01F6D6BC500C10542 /* ModuleTransitionable.swift in Sources */,
+				5017474D1F6DED9F000B547A /* MyCardService.swift in Sources */,
 				5017473B1F6DD770000B547A /* UIKit.swift in Sources */,
 				0B08B4DC250A9C75E00E3E3F /* IntroModuleConfigurator.swift in Sources */,
 				C29C48CFB0247D30890910C5 /* IntroRouter.swift in Sources */,
